@@ -1,6 +1,17 @@
 <!-- NAVIGATION -->
+<head>
+<script>
+  window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+</script>
+</head>
 <nav class="fixed-top" id="navigation">
-
   <div class="container">
     <div class="row-fluid">
       <div class="span12 center">
@@ -16,9 +27,11 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </div>
+        
         <!-- END MOBILE MENU BUTTON -->
 
         <!-- MAIN MENU -->
+        
         <ul id="main-menu" class="nav-collapse collapse">
           <li><a href="#page-welcome">Home</a></li>
           <li><a href="#page-work">Work</a></li>
