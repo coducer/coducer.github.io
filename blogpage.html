@@ -1,50 +1,11 @@
-<!-- PAGE | BLOG -->
-<div class="pages" id="page-blog">
-  <div class="container">
-    <!-- Header -->
-    <header>
-      <h4 class="line-divider">Blog</h4>
-<!--   //search blog part   
-      <h1>Recent Blog Posts</h1>
-      <div class="row">
-        <div class="span8 offset2">
-          <div class="input-append">
-            <input class="span5" id="appendedInputButton" type="text" placeholder="Search Blog">
-            <button class="btn btn-primary sicon-search sicon-white" type="button"><i>Search</i></button>
-          </div>
-        </div>
-      </div>
--->
-      <!-- Sub menu -->
-      <nav class="submenu">
-        <ul>
-          <li>
-            <a href="blogposts.html">All</a>
-          </li>
-          <li>
-            <a href="./pages/_includes/blog.html">web Development</a>
-          </li>
-          <li>
-            <a href="_includes/blog.html">Mobile Apps</a>
-          </li>
-          <li>
-            <a href="./pages/_includes/blog.html">Problem Solving</a>
-          </li>
-          <li>
-            <a href="./pages/_includes/blog.html">Data Science</a>
-          </li>
-          <li>
-            <a href="./pages/_includes/blog.html">Others</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- End Header -->
-
-    <!-- Article -->
+---
+layout: default
+title: Coducer Technologies Blog
+---
+<div>
     <article>
       <!-- Blog articles -->
-      <ul class="thumbnails">
+      <div><ul class="thumbnails">
         {% for post in site.posts offset: 0  %}
         {% include posts.html %}
         {% endfor %}
@@ -113,18 +74,7 @@
         <!--     <a href="./pages/blog/blog_6.html">Read More...</a> -->
         <!--   </div> -->
         <!-- </li> -->
-      </ul>
+      </ul> </div>
     </article>
-    <!-- End Article -->
 
-    <!-- Footer -->
-    <footer>
-      <!-- More blog posts -->
-      <div class="show-more-cube">
-      <a href="./blogpage.html"><span>All Blog<br/>Posts</span></a>
-      </div>
-    </footer>
-    <!-- End Footer -->
-  </div>
-</div>
-<!-- END PAGE | BLOG -->
+</div>>
