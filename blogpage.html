@@ -1,10 +1,19 @@
 ---
-layout: default
+layout: blog
 title: Coducer Technologies Blog
 ---
-<div>
+<body>
+  {% include portfolio_nav.html %}
+                <h1 class="center">Blog Page</h1>
+                <br>
+                <br>
+              <!-- Short desciption about Work in general -->
+              <div class="row">
+                <div class="span8 offset2">
+                </div>
+              </div>
+  <div>
     <article>
-      <h2>Coducer Technologies Blog Page</h2>
       <!-- Blog articles -->
       <div><ul class="thumbnails">
         {% for post in site.posts offset: 0  %}
@@ -77,11 +86,12 @@ title: Coducer Technologies Blog
         <!-- </li> -->
       </ul> </div>
     </article>
-            <footer>
+    <footer>
               <div class="show-more-cube">
                 <a href="./index.html" data-destination="plugin-filter-elements" data-insert="appendTo" data-action="remove">
                   <span>Go to Home Page</span>
                 </a>
               </div>
-            </footer>
-</div>
+    </footer>
+  </div>
+</body>
