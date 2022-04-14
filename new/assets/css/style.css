@@ -3765,3 +3765,11 @@ body.v-light .logo-footer img.logo-light,
   margin-bottom: 0.5em;
   text-transform: uppercase;
 }
+.mySwipers{
+  overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+  .content-title {
+    font-size: 20PX;
+  }
+}

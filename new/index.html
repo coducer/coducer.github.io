@@ -706,7 +706,7 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="content">
-                  <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+                  <a href="#" target="_blank">
                     <div class="content-overlay"></div>
                     <img class="content-image" src="assets/img/project/project1/1-sm.jpg" />
                     <div class="content-details fadeIn-bottom">
@@ -719,7 +719,7 @@
              
               <div class="swiper-slide">
                 <div class="content">
-                  <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+                  <a href="#" target="_blank">
                     <div class="content-overlay"></div>
                     <img class="content-image" src="assets/img/project/project1/1-sm.jpg" />
                     <div class="content-details fadeIn-bottom">
@@ -731,7 +731,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="content">
-                  <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+                  <a href="#" target="_blank">
                     <div class="content-overlay"></div>
                     <img class="content-image" src="assets/img/project/project1/1-sm.jpg" />
                     <div class="content-details fadeIn-bottom">
@@ -743,7 +743,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="content">
-                  <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+                  <a href="#" target="_blank">
                     <div class="content-overlay"></div>
                     <img class="content-image" src="assets/img/project/project1/1-sm.jpg" />
                     <div class="content-details fadeIn-bottom">
@@ -755,7 +755,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="content">
-                  <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+                  <a href="#" target="_blank">
                     <div class="content-overlay"></div>
                     <img class="content-image" src="assets/img/project/project1/1-sm.jpg" />
                     <div class="content-details fadeIn-bottom">
@@ -767,7 +767,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="content">
-                  <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+                  <a href="#" target="_blank">
                     <div class="content-overlay"></div>
                     <img class="content-image" src="assets/img/project/project1/1-sm.jpg" />
                     <div class="content-details fadeIn-bottom">
@@ -880,7 +880,18 @@
         slidesPerView: 3,
         spaceBetween: 2,
         
-        
+        breakpoints: {
+        // when window width is <= 499px
+        0: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 30
+        },
+        // when window width is <= 999px
+        999: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 40
+        }
+    }
         
       });
     </script>
