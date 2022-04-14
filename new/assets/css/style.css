@@ -3773,3 +3773,10 @@ body.v-light .logo-footer img.logo-light,
     font-size: 20PX;
   }
 }
+
+.text-justify{
+  text-align: justify;
+}
+.head-subsection{
+  font-size: 20px;
+}

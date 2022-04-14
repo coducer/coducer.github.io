@@ -391,6 +391,12 @@ h6 {
   font-size: 115px;
   line-height: 120px;
 }
+.title2{
+  position: relative;
+  color: var(--heading-color);
+  font-size: 35px;
+  line-height: 40px;
+}
 @media only screen and (max-width: 991px) {
   .title {
     font-size: 70px;
