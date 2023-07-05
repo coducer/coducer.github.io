@@ -12,7 +12,7 @@ export const theme = extendTheme(
   {
     colors: {
       ...baseTheme.colors,
-      brand: { ...baseTheme.colors.blue, 600: "#2F3b4b" },
+      brand: { ...baseTheme.colors.teal },
     },
   },
   proTheme
