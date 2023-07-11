@@ -1,4 +1,4 @@
-// File: /Users/jai/work/100daysofmvp/test-app/app/layout.tsx
+// File: /Users/jai/work/100daysofmvp/coducer.github.io/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

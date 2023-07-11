@@ -64,17 +64,17 @@
         "async": false
       }
     },
-    "(app-client)/./components/landing/hero.tsx": {
+    "(app-client)/./components/pricing/pricing.tsx": {
       "*": {
-        "id": "(sc_client)/./components/landing/hero.tsx",
+        "id": "(sc_client)/./components/pricing/pricing.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./components/pricing/pricing.tsx": {
+    "(app-client)/./components/landing/hero.tsx": {
       "*": {
-        "id": "(sc_client)/./components/pricing/pricing.tsx",
+        "id": "(sc_client)/./components/landing/hero.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -107,7 +107,7 @@
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "/Users/jai/work/100daysofmvp/test-app/node_modules/next/dist/client/components/error-boundary.js": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/node_modules/next/dist/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -115,7 +115,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/node_modules/next/dist/esm/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -123,7 +123,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/node_modules/next/dist/client/components/app-router.js": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/node_modules/next/dist/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -131,7 +131,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/node_modules/next/dist/esm/client/components/app-router.js": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/node_modules/next/dist/esm/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -139,7 +139,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/node_modules/next/dist/client/components/layout-router.js": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/node_modules/next/dist/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -147,7 +147,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/node_modules/next/dist/esm/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -155,7 +155,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/node_modules/next/dist/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -163,7 +163,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -171,7 +171,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -179,7 +179,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -187,7 +187,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/app/(landing)/providers.tsx": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/app/(landing)/providers.tsx": {
       "id": "(app-client)/./app/(landing)/providers.tsx",
       "name": "*",
       "chunks": [
@@ -195,7 +195,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/app/globals.css": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/app/globals.css": {
       "id": "(app-client)/./app/globals.css",
       "name": "*",
       "chunks": [
@@ -203,7 +203,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/components/faq/faq.tsx": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/components/faq/faq.tsx": {
       "id": "(app-client)/./components/faq/faq.tsx",
       "name": "*",
       "chunks": [
@@ -211,7 +211,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/components/footer/footer.tsx": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/components/footer/footer.tsx": {
       "id": "(app-client)/./components/footer/footer.tsx",
       "name": "*",
       "chunks": [
@@ -219,15 +219,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/components/landing/hero.tsx": {
-      "id": "(app-client)/./components/landing/hero.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(landing)/page:static/chunks/app/(landing)/page.js"
-      ],
-      "async": false
-    },
-    "/Users/jai/work/100daysofmvp/test-app/components/pricing/pricing.tsx": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/components/pricing/pricing.tsx": {
       "id": "(app-client)/./components/pricing/pricing.tsx",
       "name": "*",
       "chunks": [
@@ -235,7 +227,15 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/components/team/team.tsx": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/components/landing/hero.tsx": {
+      "id": "(app-client)/./components/landing/hero.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(landing)/page:static/chunks/app/(landing)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/jai/work/100daysofmvp/coducer.github.io/components/team/team.tsx": {
       "id": "(app-client)/./components/team/team.tsx",
       "name": "*",
       "chunks": [
@@ -243,7 +243,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/components/why_us/why_us.tsx": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/components/why_us/why_us.tsx": {
       "id": "(app-client)/./components/why_us/why_us.tsx",
       "name": "*",
       "chunks": [
@@ -251,7 +251,7 @@
       ],
       "async": false
     },
-    "/Users/jai/work/100daysofmvp/test-app/components/work/work.tsx": {
+    "/Users/jai/work/100daysofmvp/coducer.github.io/components/work/work.tsx": {
       "id": "(app-client)/./components/work/work.tsx",
       "name": "*",
       "chunks": [
@@ -261,9 +261,9 @@
     }
   },
   "entryCSSFiles": {
-    "/Users/jai/work/100daysofmvp/test-app/app/layout": [
+    "/Users/jai/work/100daysofmvp/coducer.github.io/app/layout": [
       "static/css/app/layout.css"
     ],
-    "/Users/jai/work/100daysofmvp/test-app/app/(landing)/page": []
+    "/Users/jai/work/100daysofmvp/coducer.github.io/app/(landing)/page": []
   }
 }
