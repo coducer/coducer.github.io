@@ -3,6 +3,7 @@ import {
   Box,
   ButtonGroup,
   Container,
+  DarkMode,
   IconButton,
   Stack,
   Text,
@@ -12,7 +13,14 @@ import { Logo } from "../landing/logo";
 
 export const Footer = () => (
   <Box bg="bg.accent.default" color="fg.accent.default">
-    <Container as="footer" role="contentinfo" py={{ base: "12", md: "16" }}>
+    <Box
+      flex="1"
+      mx="auto"
+      maxW="8xl"
+      width="full"
+      px={{ base: "4", md: "8" }}
+      py={{ base: "8", md: "8" }}
+    >
       <Stack spacing={{ base: "4", md: "5" }}>
         <Stack justify="space-between" direction="row" align="center">
           <Logo height={55} />
@@ -45,6 +53,6 @@ export const Footer = () => (
           Limited. All rights reserved.
         </Text>
       </Stack>
-    </Container>
+    </Box>
   </Box>
 );
