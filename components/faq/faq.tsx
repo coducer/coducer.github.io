@@ -1,40 +1,44 @@
 "use client";
-import {
-  Accordion,
-  Container,
-  Heading,
-  SimpleGrid,
-  Stack,
-  Text,
-} from "@chakra-ui/react";
-import { FAQItem } from "./faq_item";
 import { faqData } from "@/data/faq";
+import { Accordion, Box, Container, Flex, Stack, Text } from "@chakra-ui/react";
+import { FAQItem } from "./faq_item";
 
 export const FAQ = () => (
-  <Container py={{ base: "16", md: "24" }}>
-    <SimpleGrid columns={{ base: 1, md: 2 }} gap={12}>
-      <Stack spacing={{ base: "4", md: "6" }}>
-        <Stack spacing="4">
-          <Text
-            fontWeight="semibold"
-            color="accent"
-            textStyle={{ base: "sm", md: "md" }}
-          >
-            {"FAQ's"}
+  <Flex
+    as="section"
+    backgroundColor={"brand.600"}
+    color={"white"}
+    minH={{ base: "auto", md: "100vh" }}
+    id="faq"
+  >
+    <Container py={{ base: "16", md: "24" }} alignSelf={"center"}>
+      <Flex justifyContent={"start"}>
+        <Stack
+          spacing={{ base: "4", md: "6" }}
+          paddingEnd={{ base: 4, md: 16 }}
+          display={{ base: "none", md: "block" }}
+        >
+          <Stack spacing="4">
+            <Text
+              fontWeight="semibold"
+              color="white"
+              textStyle={{ base: "sm", md: "md" }}
+            >
+              {"FAQ's"}
+            </Text>
+          </Stack>
+          <Text textStyle={{ base: "lg", md: "xl" }} color="whiteAlpha.700">
+            Some Frequently Asked Questions
           </Text>
-          {/* <Heading as="h1" size={{ base: 'md', md: 'lg' }}>
-            Most common questions
-          </Heading> */}
         </Stack>
-        <Text textStyle={{ base: "lg", md: "xl" }} color="fg.muted">
-          Some Frequently Asked Questions
-        </Text>
-      </Stack>
-      <Accordion defaultIndex={0}>
-        {faqData.map((listing, id) => (
-          <FAQItem key={id} {...listing} />
-        ))}
-      </Accordion>
-    </SimpleGrid>
-  </Container>
+        <Flex flex={1}>
+          <Accordion defaultIndex={0}>
+            {faqData.map((listing, id) => (
+              <FAQItem key={id} {...listing} />
+            ))}
+          </Accordion>
+        </Flex>
+      </Flex>
+    </Container>
+  </Flex>
 );
