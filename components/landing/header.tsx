@@ -40,12 +40,12 @@ const Header = () => {
                 display={{ base: "none", md: "flex" }}
               >
                 {[
-                  { name: "Why us?", href: "#why_us" },
-                  { name: "Our Work", href: "#work" },
-                  { name: "Testimonials", href: "#testimonials" },
-                  { name: "Pricing", href: "#pricing" },
-                  { name: "Team", href: "#team" },
-                  { name: "FAQ", href: "#faq" },
+                  { name: "Why us?", href: "/#why_us" },
+                  { name: "Our Work", href: "/#work" },
+                  // { name: "Testimonials", href: "/#testimonials" },
+                  { name: "Pricing", href: "/#pricing" },
+                  { name: "Team", href: "/#team" },
+                  { name: "FAQ", href: "/#faq" },
                   { name: "Blogs", href: "/blog" },
                 ].map((item) => (
                   <Link href={item.href} key={item.name}>
