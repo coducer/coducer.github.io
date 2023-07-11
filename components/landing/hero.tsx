@@ -12,9 +12,9 @@ import {
   useColorModeValue as mode,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import Header from "./header";
 import HeroFooter from "./hero_footer";
+import Link from "next/link";
 
 export const Hero = () => {
   return (
@@ -64,16 +64,16 @@ export const Hero = () => {
                       your business with our 100 Days of MVP program.
                     </Text>
                     <Flex>
-                      <Link href={"/contact"}>
-                        <motion.div
-                          className="box"
-                          whileHover={{ scale: 1.1 }}
-                          transition={{
-                            type: "spring",
-                            stiffness: 400,
-                            damping: 10,
-                          }}
-                        >
+                      <motion.div
+                        className="box"
+                        whileHover={{ scale: 1.1 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 10,
+                        }}
+                      >
+                        <Link href={"/contact"}>
                           <Button
                             colorScheme="yellow"
                             backgroundColor={"yellow.600"}
@@ -82,8 +82,8 @@ export const Hero = () => {
                           >
                             {"Let's Talk"}
                           </Button>
-                        </motion.div>
-                      </Link>
+                        </Link>
+                      </motion.div>
                     </Flex>
                   </Stack>
                 </Flex>
@@ -101,8 +101,8 @@ export const Hero = () => {
                     type: "spring",
                     damping: 5,
                     stiffness: 100,
-                    restDelta: 0.001
-                  }
+                    restDelta: 0.001,
+                  },
                 }}
               >
                 <Image
