@@ -92,7 +92,7 @@ export const Hero = () => {
             <Flex flex={1}>
               <motion.div
                 className="box"
-                initial={{ opacity: 1, scale: .98 }}
+                initial={{ opacity: 0.5, scale: 0.75 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                   duration: 0.3,
