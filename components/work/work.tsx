@@ -10,6 +10,8 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { Testimonials } from "../tesimonials/testimonials";
+import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Work = () => {
   return (
@@ -49,37 +51,43 @@ const Work = () => {
           rowGap="4"
           pb="2"
         >
-          <AspectRatio ratio={3 / 4} width="100%" maxW={{ lg: "md" }}>
-            <Image
-              src="https://images.unsplash.com/photo-1587925358603-c2eea5305bbc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=470&h=622&q=80"
-              alt="Lovely Image"
-              // fallback={<Skeleton />}
-            />
-          </AspectRatio>
-          <AspectRatio
-            ratio={3 / 4}
-            width="100%"
-            maxW={{ lg: "md" }}
-            display={{ base: "none", md: "flex" }}
-          >
-            <Image
-              src="https://images.unsplash.com/photo-1587925358603-c2eea5305bbc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=470&h=622&q=80"
-              alt="Lovely Image"
-              // fallback={<Skeleton />}
-            />
-          </AspectRatio>
-          <AspectRatio
-            ratio={3 / 4}
-            width="100%"
-            maxW={{ lg: "md" }}
-            display={{ base: "none", md: "flex" }}
-          >
-            <Image
-              src="https://images.unsplash.com/photo-1587925358603-c2eea5305bbc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=470&h=622&q=80"
-              alt="Lovely Image"
-              // fallback={<Skeleton />}
-            />
-          </AspectRatio>
+          {[
+            {
+              src: "https://images.unsplash.com/photo-1587925358603-c2eea5305bbc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=470&h=622&q=80",
+              alt: "Lovely Image",
+              href: "/",
+            },
+            {
+              src: "https://images.unsplash.com/photo-1587925358603-c2eea5305bbc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=470&h=622&q=80",
+              alt: "Lovely Image",
+              href: "/",
+            },
+            {
+              src: "https://images.unsplash.com/photo-1587925358603-c2eea5305bbc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=470&h=622&q=80",
+              alt: "Lovely Image",
+              href: "/",
+            },
+          ].map((item, index) => (
+            <Link href={item.href} key={index}>
+              <motion.div
+                className="box"
+                whileHover={{ scale: 1.1 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 500,
+                  damping: 20,
+                }}
+              >
+                <AspectRatio ratio={3 / 4} width="100%" maxW={{ lg: "md" }}>
+                  <Image
+                    src={item.src}
+                    alt={item.href}
+                    fallback={<Text>Loading...</Text>}
+                  />
+                </AspectRatio>
+              </motion.div>
+            </Link>
+          ))}
         </SimpleGrid>
         <Testimonials />
       </Container>
