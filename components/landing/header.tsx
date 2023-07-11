@@ -3,9 +3,9 @@ import {
   Button,
   ButtonGroup,
   Flex,
-  HStack
+  HStack,
+  Link
 } from "@chakra-ui/react";
-import Link from "next/link";
 import { Logo } from "./logo";
 
 const Header = () => {
