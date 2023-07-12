@@ -27,7 +27,7 @@ export const FAQ = () => (
               {"FAQ's"}
             </Text>
           </Stack>
-          <Text textStyle={{ base: "lg", md: "xl" }} color="whiteAlpha.700">
+          <Text className="chakra-heading" fontSize={'2xl'} textStyle={{ base: "lg", md: "xl" }} color="whiteAlpha.700">
             Some Frequently Asked Questions
           </Text>
         </Stack>
