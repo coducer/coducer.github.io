@@ -37,7 +37,7 @@ export const Hero = () => {
       >
         <Stack direction={"column"} h={"full"}>
           <HStack flex={1} alignItems={"center"} w={"full"}>
-            <Flex flex={1}>
+            <Flex flex={1} paddingTop={{ base: 10, md: "56px" }}>
               <DarkMode>
                 <Flex color="fg.accent.default" direction={"column"} px={12}>
                   <Stack spacing={8}>
@@ -89,7 +89,12 @@ export const Hero = () => {
                 </Flex>
               </DarkMode>
             </Flex>
-            <Flex flex={1}>
+            <Flex
+              flex={1}
+              alignItems={"center"}
+              justifyContent={"center"}
+              paddingTop={{ base: 10, md: "56px" }}
+            >
               <motion.div
                 className="box"
                 initial={{ opacity: 0.5, scale: 0.75 }}
@@ -106,8 +111,7 @@ export const Hero = () => {
                 }}
               >
                 <Image
-                  width={"full"}
-                  p={{ base: 0, md: 16 }}
+                  width={550}
                   src="/assets/bg_startup.png"
                   alt="bg_image"
                 />
