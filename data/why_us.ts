@@ -10,7 +10,7 @@ export const whyUsData = [
     icon: FaCodeBranch,
   },
   {
-    name: "Team",
+    name: "Ideology",
     description:
       "Use our frontend library and helper functions to complete your customer journey with libraries (React.js, Vue.js, Angular.js).",
     icon: FaHtml5,
