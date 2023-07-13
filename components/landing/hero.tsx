@@ -15,6 +15,7 @@ import { motion } from 'framer-motion';
 import Header from './header';
 import HeroFooter from './hero_footer';
 import Link from 'next/link';
+import { Heebo } from 'next/font/google';
 
 export const Hero = () => {
 	return (
