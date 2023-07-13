@@ -5,8 +5,9 @@ import { Hero } from "@/components/landing/hero";
 import { Pricing } from "@/components/pricing/pricing";
 import { Team } from "@/components/team/team";
 import { WhyUs } from "@/components/why_us/why_us";
-import Work from "@/components/work/work";
 import { Circle } from "@/components/process/circle";
+import { Testimonials } from "@/components/tesimonials/testimonials";
+import { Work } from "@/components/work/work"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Circle />
       <WhyUs />
       <Work />
+      <Testimonials />
       <Pricing />
       <Team />
       <FAQ />

@@ -1,6 +1,10 @@
 import { Providers } from "./(landing)/providers";
 import "./globals.css";
 import type { Metadata } from "next";
+// import { Figtree } from "next/font/google";
+import { Heebo } from "next/font/google";
+
+const heebo = Heebo({ subsets:['latin']});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={heebo.className}>
         <Providers>{children}</Providers>
       </body>
     </html>

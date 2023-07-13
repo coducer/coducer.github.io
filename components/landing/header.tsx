@@ -11,7 +11,7 @@ import { Logo } from "./logo";
 
 const Header = () => {
   return (
-    <Box position={"fixed"} bgColor={"brand.600"} zIndex={1} w={"100vw"}>
+    <Box position={"fixed"} bgColor={"brand.600"} zIndex={999999999} w={"100vw"}>
       <Box
         flex="1"
         mx="auto"
