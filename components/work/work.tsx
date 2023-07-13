@@ -1,25 +1,38 @@
 'use client';
-import { AspectRatio, Box, Container, Flex, HStack, Heading, Image, SimpleGrid, Skeleton, Stack, Text, useColorModeValue } from '@chakra-ui/react';
-import { Testimonials } from '../tesimonials/testimonials';
+import {
+	AspectRatio,
+	Box,
+	Container,
+	Flex,
+	HStack,
+	Heading,
+	Image,
+	SimpleGrid,
+	Skeleton,
+	Stack,
+	Text,
+	useColorModeValue
+} from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { FaArrowRight } from 'react-icons/fa';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-const Work = () => {
+export const Work = () => {
 	return (
-    <>
-      
-    	<Flex as="section" backgroundColor={'brand.600'} color={'white'} minH={{ base: 'auto', md: '100vh' }} id="work">
-			<Container py={{ base: '16' }} alignSelf={'center'} colorScheme="black">
+		<Flex
+			as="section"
+			backgroundColor={'brand.600'}
+			color={'white'}
+			minH={{ base: '100vh', md: '100vh' }}
+			id="work"
+		>
+			<Container py={{ base: '12' }} alignSelf={'center'} colorScheme="black" mb={'0'}>
 				<Flex flexDir={'column'}>
 					<Stack spacing={{ base: '4', md: '5' }} align="center" textAlign="center" marginY={12}>
 						<Stack spacing="3">
@@ -32,272 +45,259 @@ const Work = () => {
 						</Stack>
 					</Stack>
 				</Flex>
-        
-        <Swiper
-      // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={50}
-      slidesPerView={1}
-      navigation
-      pagination={{ clickable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
-    >
-       <SwiperSlide>
-      <Stack
-      direction={{ base: "column-reverse", lg: "row" }}
-      spacing={{ base: "0", lg: "20" }}
-    >
-      <Flex flex="1" overflow="hidden">
-        <Image
-          src="https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-          alt="Lovely Image"
-          fallback={<Skeleton />}
-          maxH="450px"
-          minW="300px"
-          objectFit="cover"
-          flex="1"
-        />
-        <Image
-          display={{ base: "none", sm: "initial" }}
-          src="https://images.unsplash.com/photo-1589156206699-bc21e38c8a7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-          alt="Lovely Image"
-          fallback={<Skeleton />}
-          maxH="450px"
-          objectFit="cover"
-        />
-      </Flex>
-      
-      <Box
-        width={{ lg: "sm" }}
-        transform={{ base: "translateY(-50%)", lg: "none" }}
-        bg={{
-          base: useColorModeValue("red.50", "gray.700"),
-          lg: "transparent",
-        }}
-        mx={{ base: "6", md: "8", lg: "0" }}
-        px={{ base: "6", md: "8", lg: "0" }}
-        py={{ base: "6", md: "8", lg: "12" }}
-      >
-        <Stack spacing={{ base: "8", lg: "10" }}>
-          <Stack spacing={{ base: "2", lg: "4" }}>
-            <Heading size="xl" color={useColorModeValue("red.500", "red.300")}>
-              Misguided
-            </Heading>
-            <Heading size="xl" fontWeight="normal">
-              Refresh your wardrobe
-            </Heading>
-          </Stack>
-          
-          <HStack spacing="3">
-            {/* <Link
-              color={useColorModeValue("red.500", "red.300")}
-              fontWeight="semibold"
-              fontSize="lg"
-            >
-              Discover now
-            </Link> */}
-            {/* <Icon
-              color={useColorModeValue("red.500", "red.300")}
-              as={FaArrowRight}
-            /> */}
-          </HStack>
-        </Stack>
-      </Box>
-    </Stack>
-    </SwiperSlide>
 
+				<Swiper
+					// install Swiper modules
+					modules={[ Navigation, Pagination, Scrollbar, A11y ]}
+					spaceBetween={50}
+					slidesPerView={1}
+					navigation
+					pagination={{ clickable: true }}
+					onSwiper={(swiper) => console.log(swiper)}
+					onSlideChange={() => console.log('slide change')}
+				>
+					<SwiperSlide>
+						<Stack direction={{ base: 'column-reverse', lg: 'row' }} spacing={{ base: '0', lg: '20' }}>
+							<Flex flex="1" overflow="hidden">
+								<Image
+									src="https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+									alt="Lovely Image"
+									fallback={<Skeleton />}
+									maxH="450px"
+									minW="300px"
+									objectFit="cover"
+									flex="1"
+								/>
+								<Image
+									display={{ base: 'none', sm: 'initial' }}
+									src="https://images.unsplash.com/photo-1589156206699-bc21e38c8a7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+									alt="Lovely Image"
+									fallback={<Skeleton />}
+									maxH="450px"
+									objectFit="cover"
+								/>
+							</Flex>
 
-    <SwiperSlide>
-      <Stack
-      direction={{ base: "column-reverse", lg: "row" }}
-      spacing={{ base: "0", lg: "20" }}
-    >
-      <Flex flex="1" overflow="hidden">
-        <Image
-          src="https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-          alt="Lovely Image"
-          fallback={<Skeleton />}
-          maxH="450px"
-          minW="300px"
-          objectFit="cover"
-          flex="1"
-        />
-        <Image
-          display={{ base: "none", sm: "initial" }}
-          src="https://images.unsplash.com/photo-1589156206699-bc21e38c8a7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-          alt="Lovely Image"
-          fallback={<Skeleton />}
-          maxH="450px"
-          objectFit="cover"
-        />
-      </Flex>
-      
-      <Box
-        width={{ lg: "sm" }}
-        transform={{ base: "translateY(-50%)", lg: "none" }}
-        bg={{
-          base: useColorModeValue("red.50", "gray.700"),
-          lg: "transparent",
-        }}
-        mx={{ base: "6", md: "8", lg: "0" }}
-        px={{ base: "6", md: "8", lg: "0" }}
-        py={{ base: "6", md: "8", lg: "12" }}
-      >
-        <Stack spacing={{ base: "8", lg: "10" }}>
-          <Stack spacing={{ base: "2", lg: "4" }}>
-            <Heading size="xl" color={useColorModeValue("red.500", "red.300")}>
-              Misguided
-            </Heading>
-            <Heading size="xl" fontWeight="normal">
-              Refresh your wardrobe
-            </Heading>
-          </Stack>
-          
-          <HStack spacing="3">
-            {/* <Link
+							<Box
+								width={{ lg: 'sm' }}
+								transform={{ base: 'translateY(-50%)', lg: 'none' }}
+								bg={{
+									base: useColorModeValue('red.50', 'gray.700'),
+									lg: 'transparent'
+								}}
+								mx={{ base: '6', md: '8', lg: '0' }}
+								px={{ base: '6', md: '8', lg: '0' }}
+								py={{ base: '6', md: '8', lg: '12' }}
+							>
+								<Stack spacing={{ base: '8', lg: '10' }}>
+									<Stack spacing={{ base: '2', lg: '4' }}>
+										<Heading size="xl" color={useColorModeValue('red.500', 'red.300')}>
+											Misguided
+										</Heading>
+										<Heading size="xl" fontWeight="normal">
+											Refresh your wardrobe
+										</Heading>
+									</Stack>
+
+									<HStack spacing="3">
+										{/* <Link
               color={useColorModeValue("red.500", "red.300")}
               fontWeight="semibold"
               fontSize="lg"
             >
               Discover now
             </Link> */}
-            {/* <Icon
+										{/* <Icon
               color={useColorModeValue("red.500", "red.300")}
               as={FaArrowRight}
             /> */}
-          </HStack>
-        </Stack>
-      </Box>
-    </Stack>
-    </SwiperSlide>
-    <SwiperSlide>
-      <Stack
-      direction={{ base: "column-reverse", lg: "row" }}
-      spacing={{ base: "0", lg: "20" }}
-    >
-      <Flex flex="1" overflow="hidden">
-        <Image
-          src="https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-          alt="Lovely Image"
-          fallback={<Skeleton />}
-          maxH="450px"
-          minW="300px"
-          objectFit="cover"
-          flex="1"
-        />
-        <Image
-          display={{ base: "none", sm: "initial" }}
-          src="https://images.unsplash.com/photo-1589156206699-bc21e38c8a7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-          alt="Lovely Image"
-          fallback={<Skeleton />}
-          maxH="450px"
-          objectFit="cover"
-        />
-      </Flex>
-      
-      <Box
-        width={{ lg: "sm" }}
-        transform={{ base: "translateY(-50%)", lg: "none" }}
-        bg={{
-          base: useColorModeValue("red.50", "gray.700"),
-          lg: "transparent",
-        }}
-        mx={{ base: "6", md: "8", lg: "0" }}
-        px={{ base: "6", md: "8", lg: "0" }}
-        py={{ base: "6", md: "8", lg: "12" }}
-      >
-        <Stack spacing={{ base: "8", lg: "10" }}>
-          <Stack spacing={{ base: "2", lg: "4" }}>
-            <Heading size="xl" color={useColorModeValue("red.500", "red.300")}>
-              Misguided
-            </Heading>
-            <Heading size="xl" fontWeight="normal">
-              Refresh your wardrobe
-            </Heading>
-          </Stack>
-          
-          <HStack spacing="3">
-            {/* <Link
+									</HStack>
+								</Stack>
+							</Box>
+						</Stack>
+					</SwiperSlide>
+
+					<SwiperSlide>
+						<Stack direction={{ base: 'column-reverse', lg: 'row' }} spacing={{ base: '0', lg: '20' }}>
+							<Flex flex="1" overflow="hidden">
+								<Image
+									src="https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+									alt="Lovely Image"
+									fallback={<Skeleton />}
+									maxH="450px"
+									minW="300px"
+									objectFit="cover"
+									flex="1"
+								/>
+								<Image
+									display={{ base: 'none', sm: 'initial' }}
+									src="https://images.unsplash.com/photo-1589156206699-bc21e38c8a7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+									alt="Lovely Image"
+									fallback={<Skeleton />}
+									maxH="450px"
+									objectFit="cover"
+								/>
+							</Flex>
+
+							<Box
+								width={{ lg: 'sm' }}
+								transform={{ base: 'translateY(-50%)', lg: 'none' }}
+								bg={{
+									base: useColorModeValue('red.50', 'gray.700'),
+									lg: 'transparent'
+								}}
+								mx={{ base: '6', md: '8', lg: '0' }}
+								px={{ base: '6', md: '8', lg: '0' }}
+								py={{ base: '6', md: '8', lg: '12' }}
+							>
+								<Stack spacing={{ base: '8', lg: '10' }}>
+									<Stack spacing={{ base: '2', lg: '4' }}>
+										<Heading size="xl" color={useColorModeValue('red.500', 'red.300')}>
+											Misguided
+										</Heading>
+										<Heading size="xl" fontWeight="normal">
+											Refresh your wardrobe
+										</Heading>
+									</Stack>
+
+									<HStack spacing="3">
+										{/* <Link
               color={useColorModeValue("red.500", "red.300")}
               fontWeight="semibold"
               fontSize="lg"
             >
               Discover now
             </Link> */}
-            {/* <Icon
+										{/* <Icon
               color={useColorModeValue("red.500", "red.300")}
               as={FaArrowRight}
             /> */}
-          </HStack>
-        </Stack>
-      </Box>
-    </Stack>
-    </SwiperSlide>
-    <SwiperSlide>
-      <Stack
-      direction={{ base: "column-reverse", lg: "row" }}
-      spacing={{ base: "0", lg: "20" }}
-    >
-      <Flex flex="1" overflow="hidden">
-        <Image
-          src="https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-          alt="Lovely Image"
-          fallback={<Skeleton />}
-          maxH="450px"
-          minW="300px"
-          objectFit="cover"
-          flex="1"
-        />
-        <Image
-          display={{ base: "none", sm: "initial" }}
-          src="https://images.unsplash.com/photo-1589156206699-bc21e38c8a7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-          alt="Lovely Image"
-          fallback={<Skeleton />}
-          maxH="450px"
-          objectFit="cover"
-        />
-      </Flex>
-      
-      <Box
-        width={{ lg: "sm" }}
-        transform={{ base: "translateY(-50%)", lg: "none" }}
-        bg={{
-          base: useColorModeValue("red.50", "gray.700"),
-          lg: "transparent",
-        }}
-        mx={{ base: "6", md: "8", lg: "0" }}
-        px={{ base: "6", md: "8", lg: "0" }}
-        py={{ base: "6", md: "8", lg: "12" }}
-      >
-        <Stack spacing={{ base: "8", lg: "10" }}>
-          <Stack spacing={{ base: "2", lg: "4" }}>
-            <Heading size="xl" color={useColorModeValue("red.500", "red.300")}>
-              Misguided
-            </Heading>
-            <Heading size="xl" fontWeight="normal">
-              Refresh your wardrobe
-            </Heading>
-          </Stack>
-          
-          <HStack spacing="3">
-            {/* <Link
+									</HStack>
+								</Stack>
+							</Box>
+						</Stack>
+					</SwiperSlide>
+					<SwiperSlide>
+						<Stack direction={{ base: 'column-reverse', lg: 'row' }} spacing={{ base: '0', lg: '20' }}>
+							<Flex flex="1" overflow="hidden">
+								<Image
+									src="https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+									alt="Lovely Image"
+									fallback={<Skeleton />}
+									maxH="450px"
+									minW="300px"
+									objectFit="cover"
+									flex="1"
+								/>
+								<Image
+									display={{ base: 'none', sm: 'initial' }}
+									src="https://images.unsplash.com/photo-1589156206699-bc21e38c8a7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+									alt="Lovely Image"
+									fallback={<Skeleton />}
+									maxH="450px"
+									objectFit="cover"
+								/>
+							</Flex>
+
+							<Box
+								width={{ lg: 'sm' }}
+								transform={{ base: 'translateY(-50%)', lg: 'none' }}
+								bg={{
+									base: useColorModeValue('red.50', 'gray.700'),
+									lg: 'transparent'
+								}}
+								mx={{ base: '6', md: '8', lg: '0' }}
+								px={{ base: '6', md: '8', lg: '0' }}
+								py={{ base: '6', md: '8', lg: '12' }}
+							>
+								<Stack spacing={{ base: '8', lg: '10' }}>
+									<Stack spacing={{ base: '2', lg: '4' }}>
+										<Heading size="xl" color={useColorModeValue('red.500', 'red.300')}>
+											Misguided
+										</Heading>
+										<Heading size="xl" fontWeight="normal">
+											Refresh your wardrobe
+										</Heading>
+									</Stack>
+
+									<HStack spacing="3">
+										{/* <Link
               color={useColorModeValue("red.500", "red.300")}
               fontWeight="semibold"
               fontSize="lg"
             >
               Discover now
             </Link> */}
-            {/* <Icon
+										{/* <Icon
               color={useColorModeValue("red.500", "red.300")}
               as={FaArrowRight}
             /> */}
-          </HStack>
-        </Stack>
-      </Box>
-    </Stack>
-    </SwiperSlide>
-    </Swiper>
+									</HStack>
+								</Stack>
+							</Box>
+						</Stack>
+					</SwiperSlide>
+					<SwiperSlide>
+						<Stack direction={{ base: 'column-reverse', lg: 'row' }} spacing={{ base: '0', lg: '20' }}>
+							<Flex flex="1" overflow="hidden">
+								<Image
+									src="https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+									alt="Lovely Image"
+									fallback={<Skeleton />}
+									maxH="450px"
+									minW="300px"
+									objectFit="cover"
+									flex="1"
+								/>
+								<Image
+									display={{ base: 'none', sm: 'initial' }}
+									src="https://images.unsplash.com/photo-1589156206699-bc21e38c8a7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+									alt="Lovely Image"
+									fallback={<Skeleton />}
+									maxH="450px"
+									objectFit="cover"
+								/>
+							</Flex>
+
+							<Box
+								width={{ lg: 'sm' }}
+								transform={{ base: 'translateY(-50%)', lg: 'none' }}
+								bg={{
+									base: useColorModeValue('red.50', 'gray.700'),
+									lg: 'transparent'
+								}}
+								mx={{ base: '6', md: '8', lg: '0' }}
+								px={{ base: '6', md: '8', lg: '0' }}
+								py={{ base: '6', md: '8', lg: '12' }}
+							>
+								<Stack spacing={{ base: '8', lg: '10' }}>
+									<Stack spacing={{ base: '2', lg: '4' }}>
+										<Heading size="xl" color={useColorModeValue('red.500', 'red.300')}>
+											Misguided
+										</Heading>
+										<Heading size="xl" fontWeight="normal">
+											Refresh your wardrobe
+										</Heading>
+									</Stack>
+
+									<HStack spacing="3">
+										{/* <Link
+              color={useColorModeValue("red.500", "red.300")}
+              fontWeight="semibold"
+              fontSize="lg"
+            >
+              Discover now
+            </Link> */}
+										{/* <Icon
+              color={useColorModeValue("red.500", "red.300")}
+              as={FaArrowRight}
+            /> */}
+									</HStack>
+								</Stack>
+							</Box>
+						</Stack>
+					</SwiperSlide>
+				</Swiper>
 				{/* <SimpleGrid as="ul" columns={{ base: 1, lg: 3 }} columnGap="8" rowGap="4" pb="2">
 					{[
 						{
@@ -347,12 +347,8 @@ const Work = () => {
 						</Stack>
 					</Box>
 				</SimpleGrid> */}
-				<Testimonials />
 			</Container>
 		</Flex>
-  </>
-	
 	);
 };
 
-export default Work;

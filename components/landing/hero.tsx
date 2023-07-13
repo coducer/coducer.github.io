@@ -99,6 +99,7 @@ export const Hero = () => {
 									src="/assets/bg_startup.png"
 									alt="bg_image"
 								/>
+
 							</motion.div>
 						</Flex>
 					</HStack>

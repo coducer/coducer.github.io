@@ -23,8 +23,8 @@ export const Step = (props: StepProps) => {
           borderColor={isCompleted ? 'accent' : isLastStep ? 'transparent' : 'inherit'}
         />
       </Stack>
-      <Stack spacing="16" pb={isLastStep ? '5' : '10'}>
-        <Text color="fg.emphasized"  fontWeight="bold">
+      <Stack spacing="16" pb={isLastStep ? '5' : '5'}>
+        <Text color="white"  fontWeight="bold">
           {title}<br></br>
           {description}
         </Text>
