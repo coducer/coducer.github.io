@@ -41,7 +41,7 @@ const HeroFooter = () => {
 							{ logo: <Image src={Alarabia} alt="Alarabia" />, href: '/#logo' },
 							{ logo: <Image src={Ihx} alt="Ihx" />, href: '/#logo' },
 							{ logo: <Image src={Impactree} alt="Impactree" />, href: '/#logo' },
-							{ logo: <Image src={Jofin} alt="Jofin" />, href: '/#logo' },
+							{ logo: <Image src={Jofin} alt="Jofin" color='#CCD1D6' />, href: '/#logo' },
 							{ logo: <Image src={Trew} alt="Trew" />, href: '/#logo' },
 						].map((item, index) => (
 							<Link href={item.href} key={index}>

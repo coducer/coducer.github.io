@@ -3,6 +3,7 @@ import {
   Box,
   Button,
   ButtonGroup,
+  Circle,
   Flex,
   HStack,
   Link
@@ -25,9 +26,9 @@ const Header = () => {
           py={{ base: 4, md: 0 }}
         >
           <Flex alignItems={"center"}>
-            <Link href={"/"}>
+            {/* <Link href={"/"}> */}
               <Logo height={55} />
-            </Link>
+            {/* </Link> */}
           </Flex>
 
           <Flex align="center" h="24" justifyContent={"end"} flex="1">
@@ -40,22 +41,24 @@ const Header = () => {
                 display={{ base: "none", md: "flex" }}
               >
                 {[
-                  { name: "Why us?", href: "/#why_us" },
-                  { name: "Our Work", href: "/#work" },
-                  // { name: "Testimonials", href: "/#testimonials" },
-                  { name: "Pricing", href: "/#pricing" },
-                  { name: "Team", href: "/#team" },
-                  { name: "FAQ", href: "/#faq" },
-                  { name: "Blogs", href: "/blog" },
+                  { name: "Our Process", href:"/#process"},
+                  { name: "Why us?", href:"/#why_us" },
+                  { name: "Our Work", href:"/#work" },
+                  { name: "Case Study", href:"/#case"},
+                  { name: "Testimonial", href: "/#testimonials" },
+                  // { name: "Pricing",href:"/#pricing"},
+                  { name: "Team",href:"/#team"},
+                  { name: "FAQ",href:"/#faq"},
+                  { name: "Blogs",href:"/#blog" },
                 ].map((item) => (
-                  <Link href={item.href} key={item.name}>
+                  <Link className="" href={item.href} key={item.name}>
                     <Button color={"whiteAlpha.800"}>{item.name}</Button>
                   </Link>
                 ))}
               </ButtonGroup>
-              <Button colorScheme="yellow" backgroundColor={"yellow.600"}>
+              {/* <Button colorScheme="yellow" backgroundColor={"yellow.600"}>
                 {"Let's Talk"}
-              </Button>
+              </Button> */}
             </HStack>
           </Flex>
         </Flex>

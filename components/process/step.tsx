@@ -20,8 +20,8 @@ export const Step = (props: StepProps) => {
         <Divider
           orientation="vertical"
           borderWidth="1px"
-          borderColor={isCompleted ? 'accent' : isLastStep ? 'transparent' : 'inherit'}
-        />
+          borderColor={isCompleted ? 'accent' : isLastStep ? 'transparent' : 'accent'}
+                  />
       </Stack>
       <Stack spacing="16" pb={isLastStep ? '5' : '5'}>
         <Text color="white"  fontWeight="bold">

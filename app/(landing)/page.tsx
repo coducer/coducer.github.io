@@ -8,6 +8,7 @@ import { WhyUs } from "@/components/why_us/why_us";
 import { Circle } from "@/components/process/circle";
 import { Testimonials } from "@/components/tesimonials/testimonials";
 import { Work } from "@/components/work/work"
+import { Case } from "@/components/casestudy/case";
 
 export default function Home() {
   return (
@@ -16,8 +17,9 @@ export default function Home() {
       <Circle />
       <WhyUs />
       <Work />
+      <Case />
       <Testimonials />
-      <Pricing />
+      {/* <Pricing /> */}
       <Team />
       <FAQ />
       <Footer />

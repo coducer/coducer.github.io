@@ -1,40 +1,36 @@
 'use client';
-import { Box, Center, Container, Flex, Spacer, Stack, DarkMode, Text ,useColorModeValue as mode } from '@chakra-ui/react';
+import { Box, Center, Container, Flex, Spacer, Stack, DarkMode, Text, useColorModeValue as mode } from '@chakra-ui/react';
 import { Step } from './step';
 import { steps } from '../../data/process';
 import { useStep } from './useStep';
 import { useState } from 'react';
 
 export const Circle = () => {
-	const [ stepValue, setStepValue ] = useState('step1');
-	const [ currentStep, { setStep } ] = useStep({ maxStep: steps.length, initialStep: 1 });
+	const [stepValue, setStepValue] = useState('step1');
+	const [currentStep, { setStep }] = useStep({ maxStep: steps.length, initialStep: 1 });
 	return (
-	
+
 		<Flex
 			minH={{ base: '100vh', md: '100vh' }}
 			bgGradient={{
 				base: mode('linear(to-r, brand.600 50%, brand.600 50%)', 'linear(to-r, brand.600 50%, gray.900 50%)')
-			}}
+			}} id={"process"}
 		>
-					<Container py={{ base: '4', lg: '16' }} minH={{ base: '100vh', md: '100vh' }} mb={'10'}>
+			<Container py={{ base: '4', lg: '16' }} minH={{ base: '100vh', md: '100vh' }} mb={'10'} mt={'10'}>
 				<Box>
 					<Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} mb={'10px'} textColor={'white'} >
 						Our Processes and Outcomes
 					</Box>
-					{/* <Box fontSize={'1rem'} fontWeight={'500'} textAlign={'center'} mb={'100px'} textColor={'white'}>
-						Simplify your development process with our adaptable and flexible MVP launch program So delivery
-						on time, everytime!
-					</Box> */}
 					<Text
-											textStyle="lg"
-											maxW="xxl"
-											fontWeight="medium"
-											textAlign={{ base: 'center', md: 'center' }}
-											color={'white'}
-											mb={'14'}
-											
-										>Simplify your development process with our adaptable and flexible MVP launch program So delivery
-										on time, everytime!</Text>
+						textStyle="lg"
+						maxW="xxl"
+						fontWeight="medium"
+						textAlign={{ base: 'center', md: 'center' }}
+						color={'white'}
+						mb={'14'}
+
+					>Simplify your development process with our adaptable and flexible MVP launch program So delivery
+						on time, everytime!</Text>
 
 					<Flex>
 						<Flex>
@@ -61,33 +57,40 @@ export const Circle = () => {
 							<Box textColor={'white'}>
 								{stepValue === 'step1' && (
 									<>
-									<p>
-										We have meticulously planned each step involved in the 30 Day process to cover
-										everything from NDA to Scope Discussion to GTM Strategy and finally seal the
-										deal with 2 Documents - Proposal and Detailed Requirement Analysis that would
-										encompass everything from
-									</p>
-									<Box px={10} py={4}>
-										<li>Development Tasks and Creating Modules, Analysis, KT and Set up</li>
-										<li>Design Process</li>
-										<li>Testing Tasks</li>
-										<li>Management Tasks with habitual reporting of developments</li>
-										<li>Devop Tasks</li>
-									</Box>
+										<p>
+											We have meticulously planned each step involved in the 30 Day process to cover
+											everything from NDA to Scope Discussion to GTM Strategy and finally seal the
+											deal with 2 Documents - Proposal and Detailed Requirement Analysis that would
+											encompass everything from
+										</p>
+										<Box px={10} py={4}>
+											<li>Development Tasks and Creating Modules, Analysis, KT and Set up</li>
+											<li>Design Process</li>
+											<li>Testing Tasks</li>
+											<li>Management Tasks with habitual reporting of developments</li>
+											<li>Devop Tasks</li>
+										</Box>
+
+										<p>Please click the below link to download the initial forms</p>
+										<Box pt={10}>
+										<a href='#' download > NDA form</a><br />
+										<a href='#' download>Proposal Document</a><br/>
+										<a href='#' download>Requirement Analysis form</a>
+										</Box>
 									</>
 								)}
 								{stepValue === 'step2' && (
 									<>
-									<p>
-									Digital Products that address users needs directly, plainly and neatly win their heart right away! A well presented visual layout transforms the overall look and feel of the product in an instant. Accordingly, the first twenty days are entirely focused on designing the visuals like,
-									</p>
-									<Box px={10} py={4}>
-										<li>User Experience(UX) and Architectural Elements of the MVP</li>
-										<li>Data Models</li>
-										<li>High-Level System Design</li>
-										<li>Layout</li>
-										<li>User Interface</li>
-									</Box>
+										<p>
+											Digital Products that address users needs directly, plainly and neatly win their heart right away! A well presented visual layout transforms the overall look and feel of the product in an instant. Accordingly, the first twenty days are entirely focused on designing the visuals like,
+										</p>
+										<Box px={10} py={4}>
+											<li>User Experience(UX) and Architectural Elements of the MVP</li>
+											<li>Data Models</li>
+											<li>High-Level System Design</li>
+											<li>Layout</li>
+											<li>User Interface</li>
+										</Box>
 									</>
 								)}
 								{stepValue === 'step3' && (
@@ -110,6 +113,6 @@ export const Circle = () => {
 					</Flex>
 				</Box>
 			</Container>
-				</Flex>
+		</Flex>
 	);
 };

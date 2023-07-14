@@ -13,6 +13,8 @@ import {
 	Text,
 	useColorModeValue as mode
 } from '@chakra-ui/react';
+import { FaBeer } from 'react-icons/fa';
+
 
 export const WhyUs = () => (
 	<Box
@@ -42,6 +44,7 @@ export const WhyUs = () => (
 									molestias ipsa ab officiis eligendi eius.
 								</Text>
 							</Stack>
+
 							<SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} columnGap={4} rowGap={{ base: 10, md: 16 }}>
 								{whyUsData.map((feature) => (
 									<Stack

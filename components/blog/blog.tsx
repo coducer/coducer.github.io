@@ -29,6 +29,7 @@ export const Blog = () => {
           "linear(to-r, brand.600 50%, gray.900 50%)"
         ),
       }}
+      id={"blog"}
     >
       <Box
         flex="1"
