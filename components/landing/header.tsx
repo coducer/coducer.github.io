@@ -26,9 +26,9 @@ const Header = () => {
           py={{ base: 4, md: 0 }}
         >
           <Flex alignItems={"center"}>
-            {/* <Link href={"/"}> */}
+            <a href={"#"}>
               <Logo height={55} />
-            {/* </Link> */}
+            </a>
           </Flex>
 
           <Flex align="center" h="24" justifyContent={"end"} flex="1">
@@ -44,21 +44,21 @@ const Header = () => {
                   { name: "Our Process", href:"/#process"},
                   { name: "Why us?", href:"/#why_us" },
                   { name: "Our Work", href:"/#work" },
-                  { name: "Case Study", href:"/#case"},
+                  // { name: "Case Study", href:"/#case"},
                   { name: "Testimonial", href: "/#testimonials" },
                   // { name: "Pricing",href:"/#pricing"},
                   { name: "Team",href:"/#team"},
                   { name: "FAQ",href:"/#faq"},
                   { name: "Blogs",href:"/#blog" },
                 ].map((item) => (
-                  <Link className="" href={item.href} key={item.name}>
+                  <a className="" href={item.href} key={item.name}>
                     <Button color={"whiteAlpha.800"}>{item.name}</Button>
-                  </Link>
+                  </a>
                 ))}
               </ButtonGroup>
-              {/* <Button colorScheme="yellow" backgroundColor={"yellow.600"}>
-                {"Let's Talk"}
-              </Button> */}
+              <Button colorScheme="yellow" backgroundColor={"yellow.600"}>
+                {"Start now"}
+              </Button>
             </HStack>
           </Flex>
         </Flex>

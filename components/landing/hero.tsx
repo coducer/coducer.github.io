@@ -37,12 +37,15 @@ export const Hero = () => {
 											size={{ base: 'sm', md: 'md', xl: 'lg' }}
 											textAlign={{ base: 'center', md: 'start' }}
 										>
-											<Text size={{ base: 'md', md: 'md', xl: 'md' }} color={'yellow.600'}>
-												Make your
+											<Text size={{ base: 'md', md: 'md', xl: 'sm' }} color={'yellow.600'}>
+												Develop an MVP in 100 days
 											</Text>
-											Proposal to Operational!
+											<Text size={{ base: 'md', md: 'md', xl: 'sm' }} fontSize={40}>
+											Even as a Non-Tech Founder </Text>
+											<Text size={{ base: 'md', md: 'md', xl: 'sm' }} fontSize={30}>
+											Partnering with you from Day -30</Text>
 										</Heading>
-										<Text
+										{/* <Text
 											textStyle="lg"
 											maxW="xl"
 											fontWeight="medium"
@@ -51,7 +54,7 @@ export const Hero = () => {
 											We design and build apps and websites 10x faster than traditional
 											development. Unleash the full potential of your business with our 100 Days
 											of MVP program.
-										</Text>
+										</Text> */}
 										<Flex>
 											<motion.div
 												className="box"
@@ -69,7 +72,7 @@ export const Hero = () => {
 														px={12}
 														borderRadius={20}
 													>
-														{"Let's Talk"}
+														{"Start Now"}
 													</Button>
 												</Link>
 											</motion.div>

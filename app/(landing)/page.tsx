@@ -9,6 +9,7 @@ import { Circle } from "@/components/process/circle";
 import { Testimonials } from "@/components/tesimonials/testimonials";
 import { Work } from "@/components/work/work"
 import { Case } from "@/components/casestudy/case";
+import { Blog } from "@/components/blog/blog"
 
 export default function Home() {
   return (
@@ -17,11 +18,12 @@ export default function Home() {
       <Circle />
       <WhyUs />
       <Work />
-      <Case />
+      {/* <Case /> */}
       <Testimonials />
       {/* <Pricing /> */}
       <Team />
-      <FAQ />
+      <FAQ /> 
+      <Blog />
       <Footer />
     </>
   );
