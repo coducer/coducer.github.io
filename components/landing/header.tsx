@@ -49,7 +49,7 @@ const Header = () => {
                   // { name: "Pricing",href:"/#pricing"},
                   { name: "Team",href:"/#team"},
                   { name: "FAQ",href:"/#faq"},
-                  { name: "Blogs",href:"/#blog" },
+                  { name: "Blogs",href:"/blog" },
                 ].map((item) => (
                   <a className="" href={item.href} key={item.name}>
                     <Button color={"whiteAlpha.800"}>{item.name}</Button>

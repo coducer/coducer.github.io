@@ -37,10 +37,10 @@ export const WhyUs = () => (
 											we help you reach better heights!
 										</Heading>
 									</Stack>
-									<Text color="whiteAlpha.700" fontSize={{ base: 'lg', md: 'xl' }} maxW="3xl">
+									{/* <Text color="whiteAlpha.700" fontSize={{ base: 'lg', md: 'xl' }} maxW="3xl">
 										Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia reiciendis a
 										molestias ipsa ab officiis eligendi eius.
-									</Text>
+									</Text> */}
 								</Stack>
 
 								<SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} columnGap={4} rowGap={{ base: 10, md: 16 }}>

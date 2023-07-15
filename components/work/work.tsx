@@ -77,7 +77,7 @@ export const Work = () => {
                 }}
               >
                 <Flex justifyContent={'center'} alignItems={'center'}>
-                  <a href="/#blog"><Image
+                  <a href="/blog"><Image
                     src={Alarabia}
                     alt={'Alarabia'}
                   /></a>
@@ -94,7 +94,7 @@ export const Work = () => {
                   type: "just"
                 }}
               >
-                <a href="/#blog"><Image
+                <a href="/blog"><Image
                   src={Give}
                   alt={'give india'}
                 /></a>
@@ -110,7 +110,7 @@ export const Work = () => {
                     type: "just"
                   }}
                 >
-                  <a href="/#blog"><Image
+                  <a href="/blog"><Image
                     src={Ihx}
                     alt={'Ihx'}
                   /></a>
@@ -126,7 +126,7 @@ export const Work = () => {
                   type: "just"
                 }}
               >
-                <a href="/#blog"><Image
+                <a href="/blog"><Image
                   src={Impactree}
                   alt={'Impactree'}
                 /></a>
