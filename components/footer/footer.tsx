@@ -22,7 +22,6 @@ export const Footer = () => (
       py={{ base: "8", md: "8" }}
     >
 
-      <hr />
       <Stack spacing={{ base: "4", md: "5" }} mt={'10'}>
         <Stack justify="space-between" direction="row" align="center">
           <Logo height={55} />

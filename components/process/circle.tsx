@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 export const Circle = () => {
 	const [stepValue, setStepValue] = useState('step1');
-	const [currentStep, { setStep }] = useStep({ maxStep: steps.length, initialStep: 1 });
+	const [currentStep, { setStep }] = useStep({ maxStep: steps.length, initialStep: 0 });
 	return (
 
 		<Flex

@@ -17,12 +17,13 @@ import Give from "../../public/assets/GI.png"
 import Ihx from "../../public/assets/Ihx.png"
 import Impactree from "../../public/assets/Impact.png"
 import { FaArrowRight } from 'react-icons/fa';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+
 
 export const Work = () => {
   return (
@@ -57,13 +58,17 @@ export const Work = () => {
         </Flex>
 
         <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Navigation, Pagination, Autoplay, Scrollbar, A11y]}
           spaceBetween={50}
           slidesPerView={1}
           // navigation
           pagination={{ clickable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
         >
 
           <Stack direction={{ base: 'column-reverse', lg: 'row' }} spacing={{ base: '0', lg: '20' }}>

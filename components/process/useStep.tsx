@@ -46,7 +46,7 @@ export const useStep = (props: UseStepProps): [number, Helpers] => {
   }, [canGoToPrevStep])
 
   const reset = useCallback(() => {
-    setCurrentStep(0)
+    setCurrentStep(-1)
   }, [])
 
   return [

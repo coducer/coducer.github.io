@@ -23,7 +23,7 @@ export const Hero = () => {
 			minH={{ base: '100vh', md: '100vh' }}
 			bgGradient={{
 				base: mode('linear(to-r, brand.600 50%, brand.600 50%)', 'linear(to-r, brand.600 50%, gray.900 50%)')
-			}}
+			}} id={"hero"}
 		>
 			<Header />
 			<Box flex="1" mx="auto" maxW="8xl" width="full" px={{ base: '4', md: '8' }}>

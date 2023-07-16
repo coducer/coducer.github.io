@@ -26,7 +26,7 @@ const Header = () => {
           py={{ base: 4, md: 0 }}
         >
           <Flex alignItems={"center"}>
-            <a href={"#"}>
+            <a href={"/"}>
               <Logo height={55} />
             </a>
           </Flex>

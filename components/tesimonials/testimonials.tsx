@@ -2,7 +2,7 @@
 import { Avatar, Box, Container, Flex, Heading, Stack, Text } from '@chakra-ui/react';
 
 export const Testimonials = () => (
-	<Flex as="section" backgroundColor={'brand.600'} color={'white'} minH={{ base: '90vh', md: '90vh' }} id="work">
+	<Flex as="section" backgroundColor={'brand.600'} color={'white'} minH={{ base: '90vh', md: '90vh' }} id="testimonials">
 		<Container flexDir={'column'} py={8} minH={{ base: '90vh', md: '90vh' }}mb={'0'} mt={'10'} backgroundColor={'brand.600'} color={'white'}>
 			<Stack spacing={{ base: '4', md: '5' }} align="center" textAlign="center" marginY={28}>
 				<Stack spacing="3">
