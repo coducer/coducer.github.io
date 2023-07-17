@@ -37,13 +37,14 @@ export const Hero = () => {
 											size={{ base: 'sm', md: 'md', xl: 'lg' }}
 											textAlign={{ base: 'center', md: 'start' }}
 										>
-											<Text size={{ base: 'md', md: 'md', xl: 'sm' }} color={'yellow.600'}>
-												Develop an MVP in 100 days
-											</Text>
 											<Text size={{ base: 'md', md: 'md', xl: 'sm' }} fontSize={40}>
-											Even as a Non-Tech Founder </Text>
-											<Text size={{ base: 'md', md: 'md', xl: 'sm' }} fontSize={30}>
-											Partnering with you from Day -30</Text>
+												Empowering <span className='highlighttext'>Non-Tech Founders</span></Text>
+											<Text size={{ base: 'md', md: 'md', xl: 'sm' }} fontSize={40}>
+												to <span className='highlighttext'>Launch MVP in 100 Days </span></Text>
+											<Text size={{ base: 'md', md: 'md', xl: 'sm' }} fontSize={12} letterSpacing={'1px'} lineHeight={'30px'}>
+												Supercharge your MVP journey as a non-tech founder with "100 Days of MVP."
+												Collaborate closely with us, starting from day -30, to prioritise market-driven features and conquer technology decision-making challenges. Save time, resources, and gain flexibility through our proven process.
+											</Text>
 										</Heading>
 										{/* <Text
 											textStyle="lg"
@@ -88,7 +89,7 @@ export const Hero = () => {
 								animate={{ opacity: 1, scale: 1 }}
 								transition={{
 									duration: 0.3,
-									ease: [ 0, 0.71, 0.2, 1.01 ],
+									ease: [0, 0.71, 0.2, 1.01],
 									scale: {
 										type: 'spring',
 										damping: 5,

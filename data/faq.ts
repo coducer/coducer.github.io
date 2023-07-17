@@ -4,9 +4,7 @@ export const faqData = [
     title: "Why Should I Prefer 100 Days of MVP?",
     department: "General Questions",
     description:"100 Days of MVP brings extensive experience working with successful tech product startups, affirming what works to build a scalable minimum viable product. We understand that non-tech founders need a tech leader and a stellar development team that delivers results quickly. Our approach focuses on planning your sprint or roadmap to shape and validate your solution over time, similar to movie production. We start from day -30, connecting with non-tech founders, understanding their MVP goals, prioritising core market-friendly features, and crafting a vetted process tailored for their needs. With access to the right tools and experienced experts, we bring your vision into action, allowing you to focus on other crucial areas.",
-    // location: "San Francisco, CA",
-    // type: "Full-Time",
-  },
+   },
   {
     uid: "job002",
     title: "Do I get access to the Code of my MVP?",

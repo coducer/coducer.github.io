@@ -1,6 +1,3 @@
-import { BsCloud, BsCodeSlash, BsServer } from 'react-icons/bs';
-import { FaCodeBranch, FaCubes, FaHtml5 } from 'react-icons/fa';
-import { FaBeer } from 'react-icons/fa';
 import { BiSolidTimer } from 'react-icons/bi';
 import { AiOutlineTeam } from 'react-icons/ai';
 import { GiProcessor } from 'react-icons/gi';
@@ -13,7 +10,7 @@ export const whyUsData = [
 	{
 		name: 'Time',
 		description:
-			'We understand the significance of timely product launches, we closely collaborate with our clients to ensure prompt delivery of the final product.',
+			'We are with you every step of the way, starting from day -30, assisting you with requirements, proposals, detailed analysis, timeframes, and most of all in defining the core MVP features.',
 		icon: BiSolidTimer
 	},
 	{
@@ -30,7 +27,7 @@ export const whyUsData = [
 	},
 	{
 		name: 'Scale',
-		description: 'Through rapid prototyping, we drive design improvements, stakeholder buy-in, and efficient feedback cycles that align with your expectations.',
+		description: 'We help you accelerate your tech growth rate by scaling up your tech capabilities. This includes handling customer requests, enhancing your technological resources and infrastructure, as well as effectively managing increased workloads, user base, and emerging market opportunities.',
 		icon: BiExpand
 	},
 	{
@@ -40,7 +37,7 @@ export const whyUsData = [
 	},
 	{
 		name: 'Opensource',
-		description: 'We are with you every step of the way, starting from day -30, assisting you with requirements, proposals, detailed analysis, timeframes, and most of all in defining the core MVP features.',
+		description: 'Open Source empowers us to customise tools based on unique requirements, ensuring each product is distinctive, while Proprietary Tools are utilised when necessary. Our core goal is to deliver exceptional products that resonate with users and bring value to their lives.',
 		icon: DiOpensource
 	}
 ];

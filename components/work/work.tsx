@@ -43,16 +43,17 @@ export const Work = () => {
             marginY={8}
           >
             <Stack spacing="3">
-              <Text
-                fontSize={{ base: "sm", md: "md" }}
-                fontWeight="semibold"
-                color="white"
-              >
+              <Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} mb={'10px'} textColor={'white'} >
                 Work
-              </Text>
-              <Heading size={{ base: "sm", md: "md" }} fontWeight={"medium"}>
-                Some of our best launches
-              </Heading>
+              </Box>
+              <Text
+                textStyle="lg"
+                maxW="xxl"
+                fontWeight="medium"
+                textAlign={{ base: 'center', md: 'center' }}
+                color={'white'}
+                mb={'14'}
+              >A sneak-peek into our work</Text>
             </Stack>
           </Stack>
         </Flex>

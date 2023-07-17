@@ -2,3 +2,15 @@ html{
     scroll-behavior: smooth;
 
 }
+.highlighttext{
+    color: #F6E05E;
+}
+
+.pointers{
+    font-weight: 700;
+}
+
+.aligner{
+    display: flex;
+    justify-content: center;
+}

@@ -3,27 +3,31 @@ import { Avatar, Box, Container, Flex, Heading, Stack, Text } from '@chakra-ui/r
 
 export const Testimonials = () => (
 	<Flex as="section" backgroundColor={'brand.600'} color={'white'} minH={{ base: '90vh', md: '90vh' }} id="testimonials">
-		<Container flexDir={'column'} py={8} minH={{ base: '90vh', md: '90vh' }}mb={'0'} mt={'10'} backgroundColor={'brand.600'} color={'white'}>
-			<Stack spacing={{ base: '4', md: '5' }} align="center" textAlign="center" marginY={28}>
+		<Container className='aligner' flexDir={'column'} py={8} minH={{ base: '90vh', md: '90vh' }} mb={'0'} mt={'10'} backgroundColor={'brand.600'} color={'white'}>
+			<Stack spacing={{ base: '4', md: '5' }} align="center" textAlign="center" marginY={14}>
 				<Stack spacing="3">
-					<Text fontSize={{ base: 'sm', md: 'md' }} fontWeight="semibold" color="blwhiteack">
+					<Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} mb={'10px'} textColor={'white'} >
 						Testimonials
-					</Text>
-					<Heading size={{ base: 'sm', md: 'md' }} fontWeight={'medium'} color={'white'} mb={'-10'}>
-						How our customers think about us
-					</Heading>
+					</Box>
+					<Text
+						textStyle="lg"
+						maxW="xxl"
+						fontWeight="medium"
+						textAlign={{ base: 'center', md: 'center' }}
+						color={'white'}
+						mb={'0'}
+					>The feedback and opinions of our customers.</Text>
 				</Stack>
 			</Stack>
 
-			<Stack spacing="8" align="center" textAlign="center">
-				{/* <Logo /> */}
+			<Stack spacing="4" align="center" textAlign="center">
 				<Text
-					textStyle={{ base: 'lg', md: '2xl'}}
+					textStyle={{ base: 'lg', md: '2xl' }}
 					fontWeight={{ base: 'bold', md: 'medium' }}
 					color={'whiteAlpha.700'}
 					marginX={{ base: 0, md: 12 }}
 					mb={'10'}
-					
+
 				>
 					As a senior UI designer at Logoipsum Inc, I have had the pleasure of using Chakra UI for several of
 					our projects. I have to say, it has been an absolute game-changer for our team. Lorem, ipsum dolor
