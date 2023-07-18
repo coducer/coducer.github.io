@@ -6,7 +6,7 @@ export const Testimonials = () => (
 		<Container className='aligner' flexDir={'column'} py={8} minH={{ base: '90vh', md: '90vh' }} mb={'0'} mt={'10'} backgroundColor={'brand.600'} color={'white'}>
 			<Stack spacing={{ base: '4', md: '5' }} align="center" textAlign="center" marginY={14}>
 				<Stack spacing="3">
-					<Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} mb={'10px'} textColor={'white'} >
+					<Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} mb={'10px'} textColor={'white'} color={'#F6E05E'}>
 						Testimonials
 					</Box>
 					<Text

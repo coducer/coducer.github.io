@@ -30,7 +30,7 @@ export const WhyUs = () => (
 						<Stack spacing={{ base: '8', md: '16' }}>
 							<Stack spacing={{ base: '4', md: '4' }} align="center" textAlign="center">
 								<Stack spacing="3">
-									<Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} mb={'10px'} textColor={'white'} >
+									<Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} mb={'10px'} color={'#F6E05E'} >
 										Why us?
 									</Box>
 									<Text

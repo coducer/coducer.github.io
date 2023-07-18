@@ -22,12 +22,12 @@ export const whyUsData = [
 	{
 		name: 'Process',
 		description:
-			'Our process is a proven and customised approach designed specifically for Non-tech SaaS founders. We offer comprehensive tech assistance to ensure your success in navigating the complexities of the tech world.',
+			'Our process is a proven and customised approach designed specifically for Non-tech SaaS founders. We offer comprehensive tech assistance to ensure your success in navigating the complexities in tech world.',
 		icon: GiProcessor
 	},
 	{
 		name: 'Scale',
-		description: 'We help you accelerate your tech growth rate by scaling up your tech capabilities. This includes handling customer requests, enhancing your technological resources and infrastructure, as well as effectively managing increased workloads, user base, and emerging market opportunities.',
+		description: 'We help you accelerate your growth rate by scaling up your tech capabilities like handling customer requests, enhancing resources & infrastructure and effectively managing increased workloads.',
 		icon: BiExpand
 	},
 	{
@@ -37,7 +37,7 @@ export const whyUsData = [
 	},
 	{
 		name: 'Opensource',
-		description: 'Open Source empowers us to customise tools based on unique requirements, ensuring each product is distinctive, while Proprietary Tools are utilised when necessary. Our core goal is to deliver exceptional products that resonate with users and bring value to their lives.',
+		description: 'Open Source empowers us to customise tools based on unique requirements, ensuring each product is distinctive, while Proprietary Tools are utilised when necessary.',
 		icon: DiOpensource
 	}
 ];

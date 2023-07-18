@@ -42,9 +42,9 @@ export const Work = () => {
             textAlign="center"
             marginY={8}
           >
-            <Stack spacing="3">
+            {/* <Stack spacing="3">
               <Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} mb={'10px'} textColor={'white'} >
-                Work
+              A sneak-peek into our work
               </Box>
               <Text
                 textStyle="lg"
@@ -54,7 +54,21 @@ export const Work = () => {
                 color={'white'}
                 mb={'14'}
               >A sneak-peek into our work</Text>
-            </Stack>
+            </Stack> */}
+
+            <Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} mb={'10px'} color={'#F6E05E'}>
+            A sneak-peek into our work
+            </Box>
+
+            <Text
+              textStyle="lg"
+              maxW="xxl"
+              fontWeight="medium"
+              textAlign={{ base: 'center', md: 'center' }}
+              color={'white'}
+              mb={'14'}
+
+            >Here is a quick analysis of our stellar MVP launches in the recent past that have been head-turners in their respective fields</Text>
           </Stack>
         </Flex>
 

@@ -24,7 +24,7 @@ const HeroFooter = () => {
 					letterSpacing="wide"
 					color={mode('gray.600', 'gray.400')}
 				>
-					Somes Startups trust us
+					Some Startups trust us
 				</Text>
 				<Box maxW={{ base: 'sm', md: '7xl' }}>
 					<SimpleGrid

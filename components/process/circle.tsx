@@ -18,19 +18,9 @@ export const Circle = () => {
 		>
 			<Container py={{ base: '4', lg: '16' }} minH={{ base: '100vh', md: '100vh' }} mb={'10'} mt={'10'}>
 				<Box>
-					<Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} mb={'10px'} textColor={'white'} >
+					<Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} mb={'10px'} color={'#F6E05E'} >
 						Our Processes and Outcomes
 					</Box>
-					{/* <Text
-						textStyle="lg"
-						maxW="xxl"
-						fontWeight="medium"
-						textAlign={{ base: 'center', md: 'center' }}
-						color={'white'}
-						mb={'14'}
-
-					>Simplify your development process with our adaptable and flexible MVP launch program So delivery
-						on time, everytime!</Text> */}
 					<Text
 						textStyle="lg"
 						maxW="xxl"
