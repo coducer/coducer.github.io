@@ -1,11 +1,8 @@
 "use client";
 import {
-  AspectRatio,
   Box,
   Container,
   Flex,
-  Heading,
-  SimpleGrid,
   Stack,
   Text,
 } from "@chakra-ui/react";
@@ -16,14 +13,12 @@ import Alarabia from "../../public/assets/AA.png"
 import Give from "../../public/assets/GI.png"
 import Ihx from "../../public/assets/Ihx.png"
 import Impactree from "../../public/assets/Impact.png"
-import { FaArrowRight } from 'react-icons/fa';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-
 
 export const Work = () => {
   return (
@@ -42,22 +37,8 @@ export const Work = () => {
             textAlign="center"
             marginY={8}
           >
-            {/* <Stack spacing="3">
-              <Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} mb={'10px'} textColor={'white'} >
+            <Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} color={'#F6E05E'}>
               A sneak-peek into our work
-              </Box>
-              <Text
-                textStyle="lg"
-                maxW="xxl"
-                fontWeight="medium"
-                textAlign={{ base: 'center', md: 'center' }}
-                color={'white'}
-                mb={'14'}
-              >A sneak-peek into our work</Text>
-            </Stack> */}
-
-            <Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} mb={'10px'} color={'#F6E05E'}>
-            A sneak-peek into our work
             </Box>
 
             <Text
@@ -65,8 +46,7 @@ export const Work = () => {
               maxW="xxl"
               fontWeight="medium"
               textAlign={{ base: 'center', md: 'center' }}
-              color={'white'}
-              mb={'14'}
+              fontSize={'1xl'} color="whiteAlpha.700" mb={'14'}
 
             >Here is a quick analysis of our stellar MVP launches in the recent past that have been head-turners in their respective fields</Text>
           </Stack>

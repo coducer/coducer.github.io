@@ -15,7 +15,7 @@ import { motion } from 'framer-motion';
 import Header from './header';
 import HeroFooter from './hero_footer';
 import Link from 'next/link';
-import { Heebo } from 'next/font/google';
+import { Heebo, Spline_Sans } from 'next/font/google';
 
 export const Hero = () => {
 	return (
@@ -41,21 +41,12 @@ export const Hero = () => {
 												Empowering <span className='highlighttext'>Non-Tech Founders</span></Text>
 											<Text size={{ base: 'md', md: 'md', xl: 'sm' }} fontSize={40}>
 												to <span className='highlighttext'>Launch MVP in 100 Days </span></Text>
-											<Text size={{ base: 'md', md: 'md', xl: 'sm' }} fontSize={12} letterSpacing={'1px'} lineHeight={'30px'}>
+											<Text className='hero-subheader' size={{ base: 'md', md: 'md', xl: 'sm' }} fontSize={16} letterSpacing={'1px'} lineHeight={'25px'} mt={'20px'} color={'gray.200'}>
 												Supercharge your MVP journey as a non-tech founder with "100 Days of MVP."
 												Collaborate closely with us, starting from day -30, to prioritise market-driven features and conquer technology decision-making challenges. Save time, resources, and gain flexibility through our proven process.
 											</Text>
 										</Heading>
-										{/* <Text
-											textStyle="lg"
-											maxW="xl"
-											fontWeight="medium"
-											textAlign={{ base: 'center', md: 'start' }}
-										>
-											We design and build apps and websites 10x faster than traditional
-											development. Unleash the full potential of your business with our 100 Days
-											of MVP program.
-										</Text> */}
+
 										<Flex>
 											<motion.div
 												className="box"

@@ -30,17 +30,17 @@ export const WhyUs = () => (
 						<Stack spacing={{ base: '8', md: '16' }}>
 							<Stack spacing={{ base: '4', md: '4' }} align="center" textAlign="center">
 								<Stack spacing="3">
-									<Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} mb={'10px'} color={'#F6E05E'} >
-										Why us?
+									<Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} color={'#F6E05E'} >
+									Why choose “100 days of MVP?
 									</Box>
 									<Text
 										textStyle="lg"
 										maxW="xxl"
 										fontWeight="medium"
 										textAlign={{ base: 'center', md: 'center' }}
-										color={'white'}
+										fontSize={'1xl'} color="whiteAlpha.700"
 										mb={'14'}
-									>Deliver a fully functional MVP in 100 Days with our foolproof checklists and milestones. Our approach revolves around LEAN Methodology, <br></br>while synergizing the strengths of lean and agile methodologies as an MVP-Centred company, ensuring optimal results.</Text>
+									>Join forces with 100 Days of MVP to confidently navigate the ever-evolving tech landscape.</Text>
 								</Stack>
 							</Stack>
 

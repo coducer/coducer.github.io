@@ -26,7 +26,7 @@ export const Circle = () => {
 						maxW="xxl"
 						fontWeight="medium"
 						textAlign={{ base: 'center', md: 'center' }}
-						color={'white'}
+						fontSize={'1xl'} color="whiteAlpha.700"
 						mb={'14'}
 
 					>Deliver a fully functional MVP in 100 Days with our foolproof checklists and milestones. Our approach revolves around LEAN Methodology, while synergizing the strengths of lean and agile methodologies as an MVP-Centred company, ensuring optimal results.</Text>

@@ -19,8 +19,8 @@ export const FAQ = () => (
           display={{ base: "none", md: "block" }}
         >
           <Stack spacing="4">
-            <Box fontSize={'2rem'} fontWeight={'700'} textAlign={'left'} mb={'10px'} textColor={'white'} >
-              FAQ
+            <Box fontSize={'2rem'} fontWeight={'700'} textAlign={'left'} mb={'10px'} color={'#F6E05E'} >
+              Frequently Asked Questions
             </Box>
           </Stack>
           <Text className="chakra-heading" fontSize={'2xl'} textStyle={{ base: "lg", md: "xl" }} color="whiteAlpha.700">

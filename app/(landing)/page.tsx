@@ -18,13 +18,14 @@ export default function Home() {
       <Circle />
       <WhyUs />
       <Work />
-      {/* <Case /> */}
       <Testimonials />
       {/* <Pricing /> */}
       <Team />
       <FAQ /> 
       {/* <Blog /> */}
+      <Case />
       <Footer />
+
     </>
   );
 }

@@ -3,6 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 // import { Figtree } from "next/font/google";
 import { Heebo } from "next/font/google";
+import { Spline_Sans } from "next/font/google";
 
 const heebo = Heebo({ subsets:['latin']});
 

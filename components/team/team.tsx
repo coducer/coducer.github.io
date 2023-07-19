@@ -32,26 +32,17 @@ export const Team = () => (
             direction={{ base: "column", lg: "row" }}
           >
             <Stack spacing="10">
-              <Stack spacing="3" maxW="sm" width="full">
+              <Stack spacing="3">
+                <Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} textColor={'white'} color={'#F6E05E'}>
+                  We`re Hiring
+                </Box>
                 <Text
-                  fontSize={{ base: "sm", md: "md" }}
-                  color="white"
-                  fontWeight="semibold"
-                >
-                  {"We're hiring"}
-                </Text>
-                <Stack spacing={{ base: "4", md: "5" }}>
-                  <Heading size={{ base: "sm", md: "md" }}>
-                    Meet our team
-                  </Heading>
-                  <Text
-                    fontSize={{ base: "lg", md: "xl" }}
-                    color="fg.muted"
-                    maxW="3xl"
-                  >
-                    Jelly brownie candy dessert lemon drops marshmallow pastry.
-                  </Text>
-                </Stack>
+                  textStyle="lg"
+                  maxW="xxl"
+                  fontWeight="medium"
+                  textAlign={{ base: 'center', md: 'left' }}
+                  mb={'0'} fontSize={'1xl'} color="whiteAlpha.700"
+                >Meet Our Team of Experts</Text>
               </Stack>
               <Stack
                 spacing="3"

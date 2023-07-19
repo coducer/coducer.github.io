@@ -5,13 +5,14 @@ import {
   Heading,
   HStack,
   Icon,
-  Image,
   Link,
   Skeleton,
   Stack,
-  useColorModeValue, Text
+  useColorModeValue, Text, Button, Container, VStack, Grid, GridItem, Divider
 } from '@chakra-ui/react'
-import { FaArrowRight } from 'react-icons/fa'
+import Image from 'next/image';
+import Girl from "../../public/assets/lady.png"
+import Alarabia from "../../public/assets/AA.png"
 
 export const Case = () => (
 
@@ -22,75 +23,99 @@ export const Case = () => (
     minH={{ base: "auto", md: "100vh" }}
     id="case"
   >
-
-    <Box maxW="7xl" mx="auto" px={{ base: '0', lg: '12' }} py={{ base: '0', lg: '12' }} mt={'20'}>
-      <Flex flexDir={"column"}>
-        <Stack
-          spacing={{ base: "4", md: "5" }}
-          align="center"
-          textAlign="center"
-          marginY={12}
-        >
-          <Stack spacing="3">
-            <Text
-              fontSize={{ base: "sm", md: "md" }}
-              fontWeight="semibold"
-              color="white"
-            >
-              Our Case studies
-            </Text>
-            <Heading size={{ base: "sm", md: "md" }} fontWeight={"medium"}>
-              We study everything for better vision
-            </Heading>
-          </Stack>
+    <Container as='section' mx="auto" px={{ base: '0', lg: '12' }} py={{ base: '0', lg: '12' }}>
+      <Stack spacing={{ base: '4', md: '5' }} align="center" textAlign="center" marginY={14}>
+        <Stack spacing="3" textAlign={'left'}>
+          <Box fontSize={'2rem'} fontWeight={'700'} textAlign={'center'} color={'#F6E05E'}>
+            Case Study
+          </Box>
+          <Text
+            textStyle="lg"
+            maxW="xxl"
+            fontWeight="medium"
+            textAlign={{ base: 'center', md: 'center' }}
+            fontSize={'1xl'} color="whiteAlpha.700" mb={'0'}
+          >We Analyze everything for better vision and understanding</Text>
         </Stack>
-      </Flex>
-      <Stack direction={{ base: 'column-reverse', lg: 'row' }} spacing={{ base: '0', lg: '20' }}>
-        <Box
-          width={{ lg: 'sm' }}
-          transform={{ base: 'translateY(-50%)', lg: 'none' }}
-          bg={{ base: useColorModeValue('red.50', 'gray.700'), lg: 'transparent' }}
-          mx={{ base: '6', md: '8', lg: '0' }}
-          px={{ base: '6', md: '8', lg: '0' }}
-          py={{ base: '6', md: '8', lg: '12' }}
-        >
-          <Stack spacing={{ base: '8', lg: '10' }}>
-            <Stack spacing={{ base: '2', lg: '4' }}>
-              <Heading size="xl" color={useColorModeValue('red.500', 'red.300')}>
-                Misguided
-              </Heading>
-              <Heading size="xl" fontWeight="normal">
-                Refresh your wardrobe
-              </Heading>
-            </Stack>
-            <HStack spacing="3">
-              <Link href='#/blog' color={useColorModeValue('red.500', 'red.300')} fontWeight="bold" fontSize="lg">
-                Discover now
-              </Link>
-              <Icon color={useColorModeValue('red.500', 'red.300')} as={FaArrowRight} />
-            </HStack>
-          </Stack>
-        </Box>
-        <Flex flex="1" overflow="hidden">
-          <Image
-            src="https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-            alt="Lovely Image"
-            fallback={<Skeleton />}
-            maxH="450px"
-            minW="300px"
-            objectFit="cover"
-            flex="1"
-          />
-          <Image
-            display={{ base: 'none', sm: 'initial' }}
-            src="https://images.unsplash.com/photo-1589156206699-bc21e38c8a7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
-            alt="Lovely Image"
-            fallback={<Skeleton />}
-            maxH="450px"
-            objectFit="cover"
-          />
-        </Flex>
       </Stack>
-    </Box>
-  </Flex>
+      <Box>
+        <Flex flexDir={'row'}>
+          <Box textAlign={'left'}>
+            <p>Heading</p>
+            <Heading fontSize={'3xl'}>Why 100 days of MVP?</Heading>
+            <Flex alignItems={'center'} mb={'10'}>
+              <Image src={Girl} alt={'avatar'} width={40} />
+              <Box mx={'5'}>Created by <a href='#'>Nithish</a></Box>
+            </Flex>
+          </Box>
+          <Flex flex={1} alignItems={'center'} justifyContent={'center'} px={20}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis velit recusandae veniam sed. Exercitationem.</Flex>
+        </Flex>
+        <Button>Preview</Button>
+      </Box>
+      <Box mt={'60px'}>
+        <a href='#'><Image src={Alarabia} alt='screenshot' /></a>
+      </Box>
+      <Grid templateColumns='repeat(2, 1fr)' gap={10} mt={10}>
+        <GridItem>
+          <Heading fontSize={'3rem'}>Lorem ipsum dolor sit</Heading>
+          <Text fontSize={'1rem'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore eligendi officiis assumenda maiores laborum at dolores suscipit voluptatem natus voluptates, deserunt nostrum perspiciatis harum a expedita placeat nemo exercitationem earum.</Text>
+        </GridItem>
+
+        <GridItem alignItems={'center'} justifyContent={'center'} my={'auto'}>
+          <p>Highlights</p>
+          <Grid templateColumns='repeat(4, 1fr)' gap={4} textAlign={'center'} mt={'20px'}>
+            <GridItem>
+              <Text backgroundColor={'yellow.400'} borderRadius={'50px'}>NextJs</Text>
+            </GridItem>
+            <GridItem>
+              <Text backgroundColor={'yellow.400'} borderRadius={'50px'}>NextJs</Text>
+            </GridItem>
+            <GridItem>
+              <Text backgroundColor={'yellow.400'} borderRadius={'50px'}>NextJs</Text>
+            </GridItem>
+            <GridItem>
+              <Text backgroundColor={'yellow.400'} borderRadius={'50px'}>NextJs</Text>
+            </GridItem>
+          </Grid>
+          <Divider mt={10} borderColor={'gray.600'} />
+        </GridItem>
+
+        <Box>
+          <Heading fontSize={'1.5rem'}>Lorem ipsum dolor sit</Heading>
+          <Text fontSize={'1rem'}><span className='point-header'>Lorem ipsum dolor</span> sit amet consectetur adipisicing elit. Animi, iste consequatur ducimus harum cum repellendus porro modi id nesciunt doloribus omnis odio, iusto explicabo deserunt inventore! A fugiat voluptate debitis.</Text>
+        </Box>
+
+        <GridItem alignItems={'center'} justifyContent={'center'} my={'auto'}>
+          <p>Highlights</p>
+          <Grid templateColumns='repeat(4, 1fr)' gap={4} textAlign={'center'} mt={'20px'}>
+            <GridItem>
+              <Text backgroundColor={'yellow.400'} borderRadius={'50px'}>NextJs</Text>
+            </GridItem>
+            <GridItem>
+              <Text backgroundColor={'yellow.400'} borderRadius={'50px'}>NextJs</Text>
+            </GridItem>
+            <GridItem>
+              <Text backgroundColor={'yellow.400'} borderRadius={'50px'}>NextJs</Text>
+            </GridItem>
+            <GridItem>
+              <Text backgroundColor={'yellow.400'} borderRadius={'50px'}>NextJs</Text>
+            </GridItem>
+          </Grid>
+          <Divider mt={10} borderColor={'gray.600'} />
+        </GridItem>
+
+        <Box>
+          {/* <Heading fontSize={'1.5rem'}>Lorem ipsum dolor sit</Heading>
+            <Text fontSize={'1rem'}><span className='point-header'>Lorem ipsum dolor</span> sit amet consectetur adipisicing elit. Animi, iste consequatur ducimus harum cum repellendus porro modi id nesciunt doloribus omnis odio, iusto explicabo deserunt inventore! A fugiat voluptate debitis.</Text> */}
+        </Box>
+
+        <Grid templateColumns='repeat(1, 1fr)' gap={4} textAlign={'left'}>
+          <GridItem>
+            <Text mb={5}>Highlights</Text>
+            <a href='#'>Contact Support</a>
+          </GridItem>
+        </Grid>
+      </Grid>
+    </Container>
+  </Flex >
 );
