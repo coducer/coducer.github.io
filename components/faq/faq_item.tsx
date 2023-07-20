@@ -15,7 +15,7 @@ export const FAQItem = (props: FAQData) => {
   return (
     <AccordionItem>
       <AccordionButton gap={4} px="0">
-        <Text as="h1" fontWeight="semibold" textStyle="sm">
+        <Text as="h1" fontWeight="semibold" textStyle="lg">
           {title}
         </Text>
       </AccordionButton>

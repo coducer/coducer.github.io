@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contents",
+  "info": {
+    "singularName": "content",
+    "pluralName": "contents",
+    "displayName": "testimonials",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "testimonial_heading": {
+      "type": "string"
+    },
+    "testimonial_subheading": {
+      "type": "text"
+    },
+    "testimonial_content": {
+      "type": "text"
+    },
+    "testimonial_user_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "testimonial_user_name": {
+      "type": "string"
+    },
+    "testimonial_user_designation": {
+      "type": "string"
+    }
+  }
+}

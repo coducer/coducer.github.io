@@ -17,7 +17,7 @@ import HeroFooter from './hero_footer';
 import Link from 'next/link';
 import { Heebo, Spline_Sans } from 'next/font/google';
 
-export const Hero = () => {
+export const Hero = ({homedata}:any) => {
 	return (
 		<Flex
 			minH={{ base: '100vh', md: '100vh' }}

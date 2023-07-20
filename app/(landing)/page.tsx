@@ -1,4 +1,3 @@
-'use client'
 import { FAQ } from "@/components/faq/faq";
 import { Footer } from "@/components/footer/footer";
 import { Hero } from "@/components/landing/hero";
@@ -10,13 +9,27 @@ import { Testimonials } from "@/components/tesimonials/testimonials";
 import { Work } from "@/components/work/work"
 import { Case } from "@/components/casestudy/case";
 import { Blog } from "@/components/blog/blog"
+const API_BASE_URL =  process.env.BASE_URL || 'http://localhost:1337';
 
-export default function Home() {
+export default async function Home() {
+  const homeres = await fetch(`${API_BASE_URL}/api/heros`);
+  const process = await fetch(`${API_BASE_URL}/api/processes`);
+  const whyus = await fetch(`${API_BASE_URL}/api/why-uses`);
+
+
+  let homedata = await homeres.json();  
+  let processsection = await process.json();
+  let why_us = await whyus.json();
+  // console.info("what we do")
+
+  console.info(why_us)
+
+  const data = {...homedata, ...processsection,...why_us}
   return (
     <>
-      <Hero />
-      <Circle />
-      <WhyUs />
+      <Hero homedata={homedata} />
+      <Circle processsection={processsection} />
+      <WhyUs whyus={why_us} />
       <Work />
       <Testimonials />
       {/* <Pricing /> */}
@@ -29,3 +42,9 @@ export default function Home() {
     </>
   );
 }
+// export async function getServerSideProps() {
+  
+//   return {
+//     props: {...homedata},
+//   };
+//   }
