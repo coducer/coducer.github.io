@@ -76,3 +76,15 @@ html{
       transform: translateX(-100%);
     }}
   
+    .space{
+      margin-right: 25px !important;
+    }
+
+    .pd,.download{
+      font-size: 1rem;
+      font-weight: 600
+    }
+    .pd,.download:hover{
+      cursor: pointer;
+      color: #F6E05E;;
+    }

@@ -81,11 +81,11 @@ export const Circle = ({ processsection }: any) => {
 													<li><span className='pointers'>DevOps Tasks:</span> Managing software integration and deployment.</li>
 												</Box>
 												<p>Please click the below link to download the initial forms</p>
-												<Box px={10} py={4} lineHeight={'2'}>
-													<a href='#' download>NDA form</a><br />
-													<a href='#' download>Proposal Document</a><br />
-													<a href='#' download>Requirement Analysis form</a>
-												</Box>
+												<Flex flexDirection={'row'}py={6} px={6} lineHeight={'2'}>
+													<li className='download space'><a href='#' download>NDA form</a></li>
+													<li className='download space'><a href='#' download>Proposal Document</a></li>
+													<li className='download'><a href='#' download>Requirement Analysis form</a></li>
+												</Flex>
 											</Box>
 											<Image className='scope-opacity' src={Scope} alt='scope' width={350} height={350} />
 										</Flex>
