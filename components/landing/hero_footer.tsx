@@ -27,7 +27,7 @@ const HeroFooter = () => {
 					Some Startups trust us
 				</Text>
 				<Box maxW={{ base: 'sm', md: '7xl' }}>
-					<SimpleGrid
+					{/* <SimpleGrid
 						mt="8"
 						columns={{ base: 2, lg: 6 }}
 						color="gray.500"
@@ -58,7 +58,17 @@ const HeroFooter = () => {
 								</motion.div>
 							</Link>
 						))}
-					</SimpleGrid>
+					</SimpleGrid> */}
+					<Box className='scroll-container'>
+						<Flex className='scroll-text'>
+						<Image src={Abg} alt='abg' />
+						<Image src={Alarabia} alt='alarabia' />
+						<Image src={Ihx} alt='ihx' />
+						<Image src={Impactree} alt='impactree' />
+						<Image src={Jofin} alt='jofin' />
+						<Image src={Trew} alt='trew' />
+						</Flex>
+					</Box>
 				</Box>
 			</Box>
 		</Flex>
