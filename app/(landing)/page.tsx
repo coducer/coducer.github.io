@@ -17,7 +17,7 @@ export default async function Home() {
   const whyus = await fetch(`${API_BASE_URL}/api/why-uses`);
   const team = await fetch(`${API_BASE_URL}/api/teams`);
   const work = await fetch(`${API_BASE_URL}/api/works?populate=*`);
-  const testimonial = await fetch(`${API_BASE_URL}/api/contents`);
+  const testimonial = await fetch(`${API_BASE_URL}/api/contents?populate=*`);
   const faq = await fetch(`${API_BASE_URL}/api/faqs`);
 
   let homedata = await homeres.json();  
@@ -34,7 +34,7 @@ export default async function Home() {
   return (
     <>
       <Hero homedata={homedata} />
-     <Circle processdata={processdata} />
+      <Circle processdata={processdata} />
       <WhyUs whyusdata={whyusdata} />
       <Work workdata={workdata}/> 
       <Testimonials testimonialdata={testimonialdata}/>

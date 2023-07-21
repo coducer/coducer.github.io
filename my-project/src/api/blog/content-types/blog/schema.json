@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "blog_heading": {
+    "heading": {
       "type": "text"
     },
-    "blog_content": {
+    "content": {
       "type": "text"
     },
-    "blog_image": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -29,16 +29,16 @@
         "audios"
       ]
     },
-    "blog_type": {
+    "type": {
       "type": "string"
     },
-    "blog_short_description": {
+    "short_description": {
       "type": "text"
     },
-    "blog_createdby": {
+    "createdby": {
       "type": "string"
     },
-    "blogger_pic": {
+    "blogger_image": {
       "type": "media",
       "multiple": false,
       "required": false,

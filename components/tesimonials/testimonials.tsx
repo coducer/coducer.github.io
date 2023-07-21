@@ -3,6 +3,8 @@ import { Avatar, Box, Container, Flex, Heading, Stack, Text } from '@chakra-ui/r
 
 export const Testimonials = ({ testimonialdata }: any) => {
 	console.log(testimonialdata)
+
+	const testuserdata = testimonialdata.data
 	return (
 		<Flex as="section" backgroundColor={'brand.600'} color={'white'} minH={{ base: '90vh', md: '90vh' }} id="testimonials">
 			<Container className='aligner' flexDir={'column'} py={8} minH={{ base: '90vh', md: '90vh' }} mb={'0'} mt={'10'} backgroundColor={'brand.600'} color={'white'}>
@@ -21,30 +23,32 @@ export const Testimonials = ({ testimonialdata }: any) => {
 					</Stack>
 				</Stack>
 
-				<Stack spacing="4" align="center" textAlign="center">
-					<Text
-						textStyle={{ base: 'lg', md: '2xl' }}
-						fontWeight={{ base: 'bold', md: 'medium' }}
-						color={'white'}
-						marginX={{ base: 0, md: 12 }}
-						mb={'10'}
-					>
-						As a senior UI designer at Logoipsum Inc, I have had the pleasure of using Chakra UI for several of
-						our projects. I have to say, it has been an absolute game-changer for our team. Lorem, ipsum dolor
-						sit amet consectetur adipisicing elit. Totam corporis animi voluptates, libero cupiditate culpa
-						dolorum soluta nihil exercitationem. Ipsum odio veniam atque, suscipit exercitationem iusto
-						consequuntur at reprehenderit praesentium!
-					</Text>
-					<Stack spacing="4" align="center">
-						<Avatar src="https://i.pravatar.cc/150?u=a042581f4e29026704d" size="lg" name="Sarah Johnson" />
-						<Stack spacing="1">
-							<Text fontWeight="semibold" textStyle="lg" color={'white'}>
-								Sarah Johnson
+				{testuserdata.map((items: any) => (
+					<Stack spacing="4" align="center" textAlign="center" key={items.id}>
+						{
+							<Text
+								textStyle={{ base: 'lg', md: '2xl' }}
+								fontWeight={{ base: 'bold', md: 'medium' }}
+								color={'white'}
+								marginX={{ base: 0, md: 12 }}
+								mb={'10'}
+							>
+								{items.attributes.testimonial_content}
 							</Text>
-							<Text color="whiteAlpha.600">Senior UI Designer, Logoipsum</Text>
+						}
+						<Stack spacing="4" align="center">
+							<Avatar src={"http://localhost:1337" + items.attributes.testimonial_user_image.data.attributes.url} size="lg" name="Sarah Johnson" />
+							<Stack spacing="1">
+								<Text fontWeight="semibold" textStyle="lg" color={'white'}>
+									{items.attributes.testimonial_user_name}
+								</Text>
+								<Text color="whiteAlpha.600">									{items.attributes.testimonial_user_designation}
+</Text>
+							</Stack>
 						</Stack>
 					</Stack>
-				</Stack>
+				))}
+
 			</Container>
 		</Flex>
 	)
