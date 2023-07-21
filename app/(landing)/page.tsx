@@ -9,7 +9,7 @@ import { Testimonials } from "@/components/tesimonials/testimonials";
 import { Work } from "@/components/work/work"
 import { Case } from "@/components/casestudy/case";
 import { Blog } from "@/components/blog/blog"
-const API_BASE_URL =  process.env.BASE_URL || 'http://localhost:1337';
+const API_BASE_URL =  process.env.BASE_URL || 'http://157.245.96.35:1337';
 
 export default async function Home() {
   const homeres = await fetch(`${API_BASE_URL}/api/heros`);
