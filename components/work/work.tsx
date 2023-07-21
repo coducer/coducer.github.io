@@ -19,8 +19,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { workerData } from "worker_threads";
 
-export const Work = () => {
+export const Work = ({ workdata }: any) => {
+
+
+  const workimages = workdata.data[0].attributes.work_sample.data
+
   return (
     <Flex
       as="section"
@@ -56,7 +61,6 @@ export const Work = () => {
           modules={[Navigation, Pagination, Autoplay, Scrollbar, A11y]}
           spaceBetween={50}
           slidesPerView={1}
-          // navigation
           pagination={{ clickable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
@@ -67,71 +71,30 @@ export const Work = () => {
         >
 
           <Stack direction={{ base: 'column-reverse', lg: 'row' }} spacing={{ base: '0', lg: '20' }}>
-            <SwiperSlide>
-              <motion.div
-                className="box"
-                // whileHover={{ scale: 0.9 }}
-                transition={{
-                  type: "just"
 
-                }}
-              >
-                <Flex justifyContent={'center'} alignItems={'center'}>
-                  <a href="/blog"><Image
-                    src={Alarabia}
-                    alt={'Alarabia'}
-                  /></a>
 
-                </Flex>
-              </motion.div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <motion.div
-                className="box"
-                // whileHover={{ scale: 0.9 }}
-                transition={{
-                  type: "just"
-                }}
-              >
-                <a href="/blog"><Image
-                  src={Give}
-                  alt={'give india'}
-                /></a>
-              </motion.div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <Flex justifyContent={'center'} alignItems={'center'}>
+            {workimages?.map((item: any) => (
+              <SwiperSlide key={item?.id}>
                 <motion.div
                   className="box"
                   // whileHover={{ scale: 0.9 }}
                   transition={{
                     type: "just"
+
                   }}
                 >
-                  <a href="/blog"><Image
-                    src={Ihx}
-                    alt={'Ihx'}
-                  /></a>
-                </motion.div>
-              </Flex>
-            </SwiperSlide>
+                  <Flex justifyContent={'center'} alignItems={'center'}>
+                    <a href="/blog"><img
+                      src={"http://localhost:1337" + item?.attributes?.url}
+                    // width={100}
+                    // height={100}
+                    /></a>
 
-            <SwiperSlide>
-              <motion.div
-                className="box"
-                // whileHover={{ scale: 0.9 }}
-                transition={{
-                  type: "just"
-                }}
-              >
-                <a href="/blog"><Image
-                  src={Impactree}
-                  alt={'Impactree'}
-                /></a>
-              </motion.div>
-            </SwiperSlide>
+                  </Flex>
+                </motion.div>
+              </SwiperSlide>
+            ))}
+
           </Stack>
         </Swiper>
       </Container>

@@ -15,26 +15,32 @@ export default async function Home() {
   const homeres = await fetch(`${API_BASE_URL}/api/heros`);
   const process = await fetch(`${API_BASE_URL}/api/processes`);
   const whyus = await fetch(`${API_BASE_URL}/api/why-uses`);
-
+  const team = await fetch(`${API_BASE_URL}/api/teams`);
+  const work = await fetch(`${API_BASE_URL}/api/works?populate=*`);
+  const testimonial = await fetch(`${API_BASE_URL}/api/contents`);
+  const faq = await fetch(`${API_BASE_URL}/api/faqs`);
 
   let homedata = await homeres.json();  
-  let processsection = await process.json();
-  let why_us = await whyus.json();
-  // console.info("what we do")
+  let processdata = await process.json();
+  let whyusdata = await whyus.json();
+  let teamdata = await team.json();
+  let workdata = await work.json();
+  let testimonialdata = await testimonial.json();
+  let faqdata = await faq.json();
 
-  console.info(why_us)
+  console.info(testimonial)
 
-  const data = {...homedata, ...processsection,...why_us}
+  const data = {...homedata,...processdata,...whyusdata,...teamdata,...workdata,...testimonialdata,...faqdata}
   return (
     <>
       <Hero homedata={homedata} />
-      <Circle processsection={processsection} />
-      <WhyUs whyus={why_us} />
-      <Work />
-      <Testimonials />
+     <Circle processdata={processdata} />
+      <WhyUs whyusdata={whyusdata} />
+      <Work workdata={workdata}/> 
+      <Testimonials testimonialdata={testimonialdata}/>
       {/* <Pricing /> */}
-      <Team />
-      <FAQ /> 
+      <Team teamdata={teamdata}/>
+      <FAQ faqdata={faqdata}/> 
       {/* <Blog /> */}
       {/* <Case /> */}
       <Footer />

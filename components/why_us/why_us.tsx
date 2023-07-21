@@ -16,7 +16,8 @@ import {
 import { FaBeer } from 'react-icons/fa';
 
 
-export const WhyUs = ({ WhyUs }: any) => {
+export const WhyUs = ({ whyusdata }: any) => {
+	console.log(whyusdata)
 	return (
 		<>
 			<Box

@@ -11,8 +11,7 @@ import Dev from "../../public/assets/Development.svg"
 import Launch from "../../public/assets/Launch 01.svg"
 import Scale from "../../public/assets/Scaling.svg"
 
-export const Circle = ({ processsection }: any) => {
-	console.log(processsection)
+export const Circle = ({ processdata }: any) => {
 	const [stepValue, setStepValue] = useState('step1');
 	const [currentStep, { setStep }] = useStep({ maxStep: steps.length, initialStep: 0 });
 	return (
