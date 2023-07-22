@@ -37,7 +37,7 @@ export const Testimonials = ({ testimonialdata }: any) => {
 							</Text>
 						}
 						<Stack spacing="4" align="center">
-							<Avatar src={"http://localhost:1337" + items.attributes.testimonial_user_image.data.attributes.url} size="lg" name="Sarah Johnson" />
+							<Avatar src={"http://157.245.96.35:1337/" + items.attributes.testimonial_user_image.data.attributes.url} size="lg" name="Sarah Johnson" />
 							<Stack spacing="1">
 								<Text fontWeight="semibold" textStyle="lg" color={'white'}>
 									{items.attributes.testimonial_user_name}
