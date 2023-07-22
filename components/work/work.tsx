@@ -85,7 +85,7 @@ export const Work = ({ workdata }: any) => {
                 >
                   <Flex justifyContent={'center'} alignItems={'center'}>
                     <a href="/blog"><img
-                      src={"http://localhost:1337" + item?.attributes?.url}
+                      src={"http://157.245.96.35:1337" + item?.attributes?.url}
                     // width={100}
                     // height={100}
                     /></a>
