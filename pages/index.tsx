@@ -20,7 +20,10 @@ export default function Home(props: any) {
       <Head>
         <title>100daysofMVP | Launch your MVP in 100 days</title>
         <meta name="100 days of mvp " content="We create your design WORLD" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
         <meta name="description" content="" />
 
         <link
