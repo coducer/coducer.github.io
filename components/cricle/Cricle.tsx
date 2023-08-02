@@ -34,14 +34,16 @@ const Cricle = () => {
                   <div className={animation ? "load-up up_triangle1" : ""}></div>
                 </div>
               </div>
-              <div className="desktop">Step 1</div>
+
+              <a href="Scoping" className="stepssection">
+                <div className="desktop">Step 1</div>
+                </a>
               <div className="tab"> Step 1 </div>
               <div className="mobile"> -30 - 0 Days </div>
 
               <div className="sub1">
                 <div className="description_duration_title">Scoping</div>
                 <div className="description_small">
-                  {/* <p>Bringing your ideas to life with our expert development. </p> */}
                   <p>
                     understand the requirement, prioritize the features of your
                     MVP based on market needs.
@@ -61,7 +63,7 @@ const Cricle = () => {
                 </div>
               </div>
             </div>
-          
+
 
             <div className="circ  c2">
               <div className="part">
@@ -78,7 +80,11 @@ const Cricle = () => {
                   ></div>
                 </div>
               </div>
-              <div className="desktop"> Step 2 </div>
+
+              <a href="Design" className="stepssection">
+                <div className="desktop">Step 2</div>
+                </a>
+              {/* <div className="desktop"> Step 2 </div> */}
               <div className="tab"> Step 2 </div>
               <div className="mobile"> 1 - 20 Days </div>
 
@@ -114,7 +120,11 @@ const Cricle = () => {
                   <div className={animation ? "load-up up_triangle2" : ""}></div>
                 </div>
               </div>
-              <div className="desktop"> Step 3 </div>
+
+              <a href="Design" className="stepssection">
+                <div className="desktop">Step 3</div>
+                </a>
+              {/* <div className="desktop"> Step 3 </div> */}
               <div className="tab"> Step 3 </div>
               <div className="mobile"> 21 - 75 Days </div>
               <div className="sub1">
@@ -137,6 +147,7 @@ const Cricle = () => {
                 </div>
               </div>
             </div>
+
             <div className="circ   c4">
               <div className="part">
                 <div className="fortriangle">
@@ -152,7 +163,11 @@ const Cricle = () => {
                   ></div>
                 </div>
               </div>
-              <div className="desktop"> Step 4 </div>
+
+              <a href="Design" className="stepssection">
+                <div className="desktop">Step 4</div>
+                </a>
+              {/* <div className="desktop"> Step 4 </div> */}
               <div className="tab"> Step 4 </div>
               <div className="mobile"> 76 - 90 Days </div>
               <div className="sub2">
@@ -175,6 +190,7 @@ const Cricle = () => {
                 </div>
               </div>
             </div>
+
             <div className="circ  c5">
               <div className="part">
                 <div className="fortriangle">
@@ -186,7 +202,11 @@ const Cricle = () => {
                   <div className={animation ? "load-up up_triangle3" : ""}></div>
                 </div>
               </div>
-              <div className="desktop"> Step 5 </div>
+
+              <a href="Design" className="stepssection">
+                <div className="desktop">Step 5</div>
+                </a>
+              {/* <div className="desktop"> Step 5 </div> */}
               <div className="tab"> Step 5 </div>
               <div className="mobile"> 90 -100 Days </div>
               <div className="sub1">

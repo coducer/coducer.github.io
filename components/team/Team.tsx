@@ -28,7 +28,7 @@ const Team = () => {
                                     <p className="role">Founder / CEO</p>
                                     <span className="github px-1"><AiFillGithub /></span>
                                     <span className="twitter px-1"><AiFillTwitterCircle /></span>
-                                    <span className="linkedin px-1"><AiFillLinkedin /></span>
+                                    <a href="https://www.linkedin.com/in/kjaikeerthi/"><span className="linkedin px-1"><AiFillLinkedin /></span></a>
                                 </div>
                             </div>
 
@@ -39,7 +39,7 @@ const Team = () => {
                                     <p className="role">Developer</p>
                                     <span className="github px-1"><AiFillGithub /></span>
                                     <span className="twitter px-1"><AiFillTwitterCircle /></span>
-                                    <span className="linkedin px-1"><AiFillLinkedin /></span>
+                                   <a href="https://www.linkedin.com/in/tejeshpichandi/"><span className="linkedin px-1"><AiFillLinkedin /></span></a>
                                 </div>
                             </div>
                         </div>

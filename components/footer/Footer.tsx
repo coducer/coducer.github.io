@@ -14,7 +14,7 @@ const Footer = () => {
     <>
       <div className="footer_screen">
         <Container>
-          <div className="footer py-5">
+          <div className="footer py-2">
             <div className="company_logo d-flex align-items-center">
               <Image src={company_logo} alt="" />
             </div>

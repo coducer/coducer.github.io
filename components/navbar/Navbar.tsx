@@ -10,7 +10,7 @@ const Navbar = () => {
         <Container>
           <nav className="navbar navbar-expand-lg d-flex justify-content-between">
             <div>
-              <a className="navbar-brand" href="#">
+              <a className="navbar-brand" href="/">
                 <Image src={company_logo1} width={150} alt="lgo" className="mvp ms-2" id="#hero"/>
               </a>
             </div>
@@ -20,13 +20,13 @@ const Navbar = () => {
               </button>
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav text-white">
-                  <a className="nav-item nav-link text-white px-3" href="#process">Our Process</a>
-                  <a className="nav-item nav-link text-white px-3" href="#whyus">Why-us?</a>
-                  <a className="nav-item nav-link text-white px-3" href="#work">Our Work</a>
-                  <a className="nav-item nav-link text-white px-3" href="#testimonial">Testimonial</a>
-                  <a className="nav-item nav-link text-white px-3" href="#team">Team</a>
-                  <a className="nav-item nav-link text-white px-3" href="#faq">Faq</a>
-                  <a className="nav-item nav-link text-white px-3" href="/blog">Blogs</a>
+                  <a className="nav-item nav-link text-white px-3" href="/#process">Our Process</a>
+                  <a className="nav-item nav-link text-white px-3" href="/#whyus">Why-us?</a>
+                  <a className="nav-item nav-link text-white px-3" href="/#work">Our Work</a>
+                  <a className="nav-item nav-link text-white px-3" href="/#testimonial">Testimonial</a>
+                  <a className="nav-item nav-link text-white px-3" href="/#team">Team</a>
+                  <a className="nav-item nav-link text-white px-3" href="/#faq">Faq</a>
+                  <a className="nav-item nav-link text-white px-3" href="/blogs">Blogs</a>
                   <div>
                   <button className="btn-start p-2 px-4 fw-semibold" style={{color:"#28324B",fontSize:"14px"}}>Start Now</button>
                 </div>
