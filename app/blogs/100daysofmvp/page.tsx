@@ -22,11 +22,11 @@ const page = () => {
                                 In 100 Days of MVP, we divide the days into 4 Phases for harmonious balance of extensive operations involved in building an MVP.
 
                                 1) 1-20 Days - The Design Phase
-                                2)21-75 Days - The Development Phase
-                                3)76-90 Days - The Launch Phase
-                                4)91-100 Days - Scaling Phase
+                                2) 21-75 Days - The Development Phase
+                                3) 76-90 Days - The Launch Phase
+                                4) 91-100 Days - Scaling Phase
 
-                                *The Design Phase
+                                The Design Phase
 
                                 Digital Products that address users’ needs directly, plainly, and neatly win their heart right away! A well-presented visual layout transforms the overall look and feel of the product in an instant. Accordingly, the first twenty days are entirely focused on designing the visuals of the product.
                                 This phase comprises of 4 Weeks
@@ -36,7 +36,7 @@ const page = () => {
                                 Week 3(Day 11 to 15) - We will focus on the layout of the visual elements & content and design the user interface for seamless interaction taking the iterations into account.
                                 Week 4(Day 15 to 20) - We will give you the final demo of the Design to keep you aligned with the changes and progess made so far.
 
-                                *The Development Phase
+                                The Development Phase
 
                                 Once the layout design of the product is finalised, our team begins to take on a well-structured development approach for the next 11 Weeks/55 Days. We focus on choosing appropriate open-source technologies and frameworks, customising and integrating solutions to meet project needs and ensuring seamless integration of the components. Meanwhile, weekly updates and biweekly demos are provided to keep you abreast with the advances made to ensure that we are on the same page in terms of design and features.
 
@@ -52,14 +52,14 @@ const page = () => {
                                 Week 10(Day 66 to 70) - A fifth demo is presented.
                                 Week 11(Day 71 to 75) -  We ensure that the product developed is wholesome and aligns with the objective of the customer.
 
-                                *The Launch Phase
+                                The Launch Phase
 
                                 The next organic step after development of the product is to launch the tested and validated product. In this phase, patterns, pain points, and opportunities are analyzed from the feedbacks received. 3 whole weeks are solely dedicated to this.
 
                                 Week 1(Day 76 to 80) -  A Demo of the developed product is given and the Third and Final Batch of Design(R3) is released. The R3 released is the UAT(User Acceptance Testing) Reading, the last stage of Software Development lifecycle.
                                 Week 2 and 3(Day 81 to 90) -  Based on user testing, reviews and feedback, observations are noted and iterative improvements are made. Changes are validated and updated versions are further tested.
 
-                                *Scaling Phase
+                                Scaling Phase
 
                                 In the final phase, we help you to scale up the product by building new components or by pivoting existing features based on customer feedback and success in the market. Our primary focus is on prioritising and implementing user-driven enhancements, building new components, expand functionality with new modules, pivoting existing features and adaping them based on market validation, streamlining the processes to optimise performance and scalability, tech workload optimization for heavy workloads and employ rapid development iterations to deliver an outstanding MVP in 100 Days!
 
