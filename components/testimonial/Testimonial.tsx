@@ -1,6 +1,7 @@
 import kfc from "../../public/assets/cl4.png"
 import React from "react"
 import Image from "next/image"
+import Jai from "../../public/assets/jai.jpg"
 import { Container } from "react-bootstrap"
 const Testimonial = () => {
     return (
@@ -15,9 +16,9 @@ const Testimonial = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi reprehenderit corrupti praesentium laboriosam culpa nam enim nemo eveniet voluptatum perspiciatis, fugiat provident tempore alias cupiditate maiores totam, aut accusantium?</div>
 
                         <div className="py-3 d-flex align-items-center justify-content-center">
-                            <Image src={kfc} alt="user" width={50} height={50} pt-3 />
+                            <Image className="test-img" src={Jai} alt="user" width={50} height={50} pt-3 />
                         </div>
-                        <p className="user-name mb-0 fs-4 fw-semibold d-flex text-white align-items-center justify-content-center ">Nithish</p>
+                        <p className="user-name mb-0 fs-4 fw-semibold d-flex text-white align-items-center justify-content-center ">Jai</p>
                         <p className="user-designation d-flex text-white align-items-center justify-content-center">Frontend Developer</p>
             </Container>
         </div>

@@ -909,8 +909,6 @@ margin-right: 160px; */
 }
 
 .description_small {
-
-
 width: 300px;
 }
 .description_small p{
@@ -2860,9 +2858,9 @@ font-weight: 900;
 color: var(--fontColor);
 }
 
-/* .description_process_details p,.process_title_details{
-color: #F4DD4B;
-} */
+.test-img{
+  border-radius: 50px;
+}
 
 
 
