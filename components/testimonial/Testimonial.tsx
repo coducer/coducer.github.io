@@ -1,4 +1,3 @@
-import kfc from "../../public/assets/cl4.png"
 import React from "react"
 import Image from "next/image"
 import Jai from "../../public/assets/jai.jpg"

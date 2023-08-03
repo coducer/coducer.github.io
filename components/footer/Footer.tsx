@@ -1,14 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import company_logo from "../../public/assets/logo_yellow.svg";
-import { GrGoogle } from "react-icons/gr";
-import { BsFacebook } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
-import { BsLinkedin } from "react-icons/bs";
 import Image from "next/image";
-import twitter_tab from "../../public/assets/Twitter.svg";
-import lin_tab from "../../public/assets/Linkedin.svg";
-import insta_tab from "../../public/assets/Instagram.svg";
 const Footer = () => {
   return (
     <>

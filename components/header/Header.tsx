@@ -2,13 +2,6 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Image from "next/image";
 import Rocket from "../../public/assets/bg_startup.png"
-import Abg from "../../public/assets/ABG.svg"
-import Alarabia from "../../public/assets/size40/Al Arabia.svg"
-import Ihx from "../../public/assets/size40/IHX.svg"
-import Impactree from "../../public/assets/size40/Impactree.svg"
-import Jofin from "../../public/assets/size40/Jofin.svg"
-import Trew from "../../public/assets/size40/TREW.svg"
-
 
 const Header = () => {
   return (

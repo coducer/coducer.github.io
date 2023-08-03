@@ -1,10 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { BsCircleFill, BsHexagon } from "react-icons/bs";
-import { GiStarShuriken } from "react-icons/gi";
-import { TbFileSpreadsheet } from "react-icons/tb";
-import hex from "../../public/assets/hex.svg";
 import iconss from "../../public/assets/detailsicon.svg";
 import { BiTimer } from 'react-icons/bi'
 import { AiOutlineTeam } from 'react-icons/ai'

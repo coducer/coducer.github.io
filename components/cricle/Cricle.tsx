@@ -84,7 +84,6 @@ const Cricle = () => {
               <a href="Design" className="stepssection">
                 <div className="desktop">Step 2</div>
                 </a>
-              {/* <div className="desktop"> Step 2 </div> */}
               <div className="tab"> Step 2 </div>
               <div className="mobile"> 1 - 20 Days </div>
 
@@ -124,7 +123,6 @@ const Cricle = () => {
               <a href="Development" className="stepssection">
                 <div className="desktop">Step 3</div>
                 </a>
-              {/* <div className="desktop"> Step 3 </div> */}
               <div className="tab"> Step 3 </div>
               <div className="mobile"> 21 - 75 Days </div>
               <div className="sub1">
@@ -167,7 +165,6 @@ const Cricle = () => {
               <a href="Launch" className="stepssection">
                 <div className="desktop">Step 4</div>
                 </a>
-              {/* <div className="desktop"> Step 4 </div> */}
               <div className="tab"> Step 4 </div>
               <div className="mobile"> 76 - 90 Days </div>
               <div className="sub2">
@@ -206,7 +203,6 @@ const Cricle = () => {
               <a href="Scaling" className="stepssection">
                 <div className="desktop">Step 5</div>
                 </a>
-              {/* <div className="desktop"> Step 5 </div> */}
               <div className="tab"> Step 5 </div>
               <div className="mobile"> 90 -100 Days </div>
               <div className="sub1">

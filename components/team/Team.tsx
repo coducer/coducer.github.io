@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Jai from "../../public/assets/jai.jpg"
 import Tej from "../../public/assets/tejesh.jpeg"
-
 import { Container } from "react-bootstrap";
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai"
 
@@ -27,7 +26,6 @@ const Team = () => {
                                     <p className="mb-0 jai">Jai Keerthi</p>
                                     <p className="role">Founder / CEO</p>
                                     <span className="github px-1"><AiFillGithub /></span>
-                                    {/* <span className="twitter px-1"><AiFillTwitterCircle /></span> */}
                                     <a href="https://www.linkedin.com/in/kjaikeerthi/"><span className="linkedin px-1 ps-2"><AiFillLinkedin /></span></a>
                                 </div>
                             </div>
@@ -38,7 +36,6 @@ const Team = () => {
                                     <p className="mb-0 tej">Tejesh</p>
                                     <p className="role">Developer</p>
                                     <span className="github px-1"><AiFillGithub /></span>
-                                    {/* <span className="twitter px-1"><AiFillTwitterCircle /></span> */}
                                     <a href="https://www.linkedin.com/in/tejeshpichandi/"><span className="linkedin px-1 ps-2"><AiFillLinkedin /></span></a>
                                 </div>
                             </div>

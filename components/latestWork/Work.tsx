@@ -1,7 +1,4 @@
 import React from "react";
-import img1 from "../../public/assets/1.jpg"
-import img2 from "../../public/assets/2.png"
-import img3 from "../../public/assets/3.png"
 import mock1 from "../../public/assets/lap5.png"
 import mock2 from "../../public/assets/lap2.jpg"
 import mock3 from "../../public/assets/lap4.jpg"
@@ -21,38 +18,32 @@ const Work = () => {
 
             <div className="container">
               <div className="row wrk-sample">
-                {/* <h3 className="title">Text fadeIn bottom</h3> */}
                 <div className="content col-lg-4">
                   <a href="http://prabhaav-user.coducer.xyz/login">
                     <div className="content-overlay"></div>
                     <Image className="content-image workimg" src={mock1} alt="" />
                     <div className="content-details fadeIn-bottom">
                       <h3 className="content-title">Impactree</h3>
-                      {/* <p className="content-text">This is a short description</p> */}
                     </div>
                   </a>
                 </div>
 
-                {/* <h3 className="title">Text fadeIn bottom</h3> */}
                 <div className="content col-lg-4">
                   <a href="http://20.74.152.254/login">
                     <div className="content-overlay"></div>
                     <Image className="content-image workimg" src={mock2} alt="" />
                     <div className="content-details fadeIn-bottom">
                       <h3 className="content-title">Al-Arabia</h3>
-                      {/* <p className="content-text">This is a short description</p> */}
                     </div>
                   </a>
                 </div>
 
-                {/* <h3 className="title">Text fadeIn bottom</h3> */}
                 <div className="content col-lg-4">
                   <a href="http://clm.coducer.xyz/login">
                     <div className="content-overlay"></div>
                     <Image className="content-image workimg" src={mock3} alt="" />
                     <div className="content-details fadeIn-bottom">
                       <h3 className="content-title">Ihx</h3>
-                      {/* <p className="content-text">This is a short description</p> */}
                     </div>
                   </a>
                 </div>
