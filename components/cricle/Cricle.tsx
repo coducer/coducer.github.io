@@ -121,7 +121,7 @@ const Cricle = () => {
                 </div>
               </div>
 
-              <a href="Design" className="stepssection">
+              <a href="Development" className="stepssection">
                 <div className="desktop">Step 3</div>
                 </a>
               {/* <div className="desktop"> Step 3 </div> */}
@@ -164,7 +164,7 @@ const Cricle = () => {
                 </div>
               </div>
 
-              <a href="Design" className="stepssection">
+              <a href="Launch" className="stepssection">
                 <div className="desktop">Step 4</div>
                 </a>
               {/* <div className="desktop"> Step 4 </div> */}
@@ -203,7 +203,7 @@ const Cricle = () => {
                 </div>
               </div>
 
-              <a href="Design" className="stepssection">
+              <a href="Scaling" className="stepssection">
                 <div className="desktop">Step 5</div>
                 </a>
               {/* <div className="desktop"> Step 5 </div> */}

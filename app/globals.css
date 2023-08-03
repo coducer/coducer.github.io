@@ -916,7 +916,7 @@ width: 300px;
 .description_small p{
 font-family: var(--fordescription);
 margin: 0%;
-font-size: 12px;
+font-size: 14px;
 text-align: center;
 font-weight: 400;
 color: var(--fontColor);

@@ -13,24 +13,23 @@ const page = () => {
                     <div className="scope py-3">
                         <p className="blog-content">
                             <p>
-                                #Blog 2
 
-                                Journey to Tech Excellence
-                                A Superhero Founder's comprehensive supertools guide to build an MVP
+                                <b>Journey to Tech Excellence</b>
+                                <b>A Superhero Founder's comprehensive supertools guide to build an MVP</b>
 
-                                It was a sunny afternoon in Innovateville and Alex, the Superhero entrepreneur was curious about how an MVP is crafted within 100 days. Having learnt from his tech friend 100 Days of MVP about the extensive processes involved, Alex was yearning to know the secret strategy employed in choosing the right tools and technology that make his product special.
-                                The genie appeared from a cloud of magical smoke in the cracked wall of his room like the last time and greeted Alex with a warm smile. Alex was all ears to listen to the genie’s expatiation on the tools and technologies used to build a remarkable MVP.
+                                <p>It was a sunny afternoon in Innovateville and Alex, the Superhero entrepreneur was curious about how an MVP is crafted within 100 days. Having learnt from his tech friend 100 Days of MVP about the extensive processes involved, Alex was yearning to know the secret strategy employed in choosing the right tools and technology that make his product special.
+                                The genie appeared from a cloud of magical smoke in the cracked wall of his room like the last time and greeted Alex with a warm smile. Alex was all ears to listen to the genie’s expatiation on the tools and technologies used to build a remarkable MVP.</p>
 
 
-                                Tools used for building an MVP
+                                <b>Tools used for building an MVP</b>
 
-                                “O noble entrepreneur, having meticulously crafted the process, equal attention is given to choosing appropriate tools that align with the needs of the product. The end goal of an MVP is to quickly test the core concept and gather feedback from early users while keeping development costs and time to a minimum.” said the genie with a smirk.
+                                <p>“O noble entrepreneur, having meticulously crafted the process, equal attention is given to choosing appropriate tools that align with the needs of the product. The end goal of an MVP is to quickly test the core concept and gather feedback from early users while keeping development costs and time to a minimum.” said the genie with a smirk.
                                 “But genie, this seems to be a daunting task!” remarked Alex.
                                 ‘Well, not if we have a distinctly defined set of tools classified based on its purpose” replied the genie.
                                 “That’s tricky! What purpose does each tool serve?” quipped Alex.
-                                And the genie began its sermon. “The choice of tools will depend on the project’s requirements and budget. The tools mentioned help to expedite the development process and validate ideas faster. Here is a list of tools classified based on their functions and purposes”.
-
-                                List of Tools and their Purpose
+                                And the genie began its sermon. “The choice of tools will depend on the project’s requirements and budget. The tools mentioned help to expedite the development process and validate ideas faster.</p>
+                                
+                                <b>Function and Purpose of Tools :</b>
 
                                 1. Customer Interview Tools  - TypeForm, Google Forms, LinkedIn
                                 2. Programming Languages and Frameworks: Depending on the nature of your product, you'll need to choose, it can accelerate the development process by providing reusable components and a structured approach to building the user interface. Popular choices include Python (Django or Flask), Ruby on Rails, Ruby(Sintara), Node.js, Django, React, Angular, Vue.js etc are other options for building the back-end, depending on the language and framework you are comfortable with.

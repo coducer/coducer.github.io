@@ -8,7 +8,7 @@ const page = () => {
     return (
         <div>
             <Navbar />
-            <div>
+            <div className="min-vh-100">
                 <Container>
                     <div className="scope py-3">
                         <p className="Scaling-content">
