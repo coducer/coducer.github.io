@@ -16,7 +16,7 @@ const Clients = () => {
               <div className="slide">
                 <Image src={cl2} height="100" width="250" alt="" />
               </div>
-              <div className="slide">
+              <div className="slide me-3">
                 <Image src={impactree} width="100" alt="" />
               </div>
               <div className="slide me-3">
@@ -25,7 +25,7 @@ const Clients = () => {
               <div className="slide me-3">
                 <Image src={cl5} height="50" width="150" alt="" />
               </div>
-              <div className="slide">
+              <div className="slide me-3">
                 <Image src={cl2} height="100" width="250" alt="" />
               </div>
               <div className="slide me-3">
@@ -34,11 +34,11 @@ const Clients = () => {
               <div className="slide me-3">
                 <Image src={cl5} height="50" width="150" alt="" />
               </div>
-              <div className="slide">
-                <Image src={impactree} width="100" alt="" />
-              </div>
-              <div className="slide">
+              <div className="slide me-3">
                 <Image src={cl2} height="100" width="250" alt="" />
+              </div>
+              <div className="slide me-3">
+                <Image src={impactree} width="100" alt="" />
               </div>
               <div className="slide me-3">
                 <Image src={cl4} height="100" width="150" alt="" />
