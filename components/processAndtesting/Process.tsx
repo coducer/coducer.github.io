@@ -1,6 +1,6 @@
 import React from "react";
 import { GiStarShuriken } from "react-icons/gi";
-import Cricle from "../cricle/Cricle";
+import Cricle from "../circle/Circle";
 import { Col, Container, Row } from "react-bootstrap";
 
 

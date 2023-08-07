@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import Process from "../processAndtesting/Process";
-const Cricle = () => {
+const Circle = () => {
   const [animation, setAnimation] = useState(false);
   const startAnimaton = () => {
     if (window.scrollY >= 120) {
@@ -232,4 +232,4 @@ const Cricle = () => {
   );
 };
 
-export default Cricle;
+export default Circle;

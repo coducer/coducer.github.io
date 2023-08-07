@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import company_logo from "../../public/assets/logo_yellow.svg";
 import Image from "next/image";
+
 const Footer = () => {
   return (
     <>

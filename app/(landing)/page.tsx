@@ -1,15 +1,15 @@
 'use client'
-import Header from "../../components/header/Header";
-import Navbar from "../../components/navbar/Navbar";
-import Details from "../../components/details/Details";
-import Work from "../../components/latestWork/Work";
-import Testimonial from "../../components/testimonial/Testimonial";
-import Clients from "../../components/clients/Clients";
-import Footer from "../../components/footer/Footer";
-import Team from "../../components/team/Team"
-import Faq from "../../components/faq/Faq"
-import Circle from "../../components/cricle/Cricle"
-import Structure from "../../components/blogstructure/structure";
+
+import Circle from "@/components/circle/Circle";
+import Clients from "@/components/clients/Clients";
+import Details from "@/components/details/Details";
+import Faq from "@/components/faq/Faq";
+import Footer from "@/components/footer/Footer";
+import Header from "@/components/header/Header";
+import Work from "@/components/latestWork/Work";
+import Navbar from "@/components/navbar/Navbar";
+// import Team from "@/components/team/Team";
+// import Testimonial from "@/components/testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -19,8 +19,8 @@ export default function Home() {
       <Circle />
       <Details />
       <Work />
-      <Testimonial />
-      <Team />
+      {/* <Testimonial />
+      <Team /> */}
       <Clients />
       <Faq />
       <Footer />
