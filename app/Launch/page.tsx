@@ -1,7 +1,5 @@
 'use client'
-import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
-import React from "react";
 import { Container } from "react-bootstrap";
 
 const page = () => {
@@ -22,7 +20,6 @@ const page = () => {
                     </div>
                 </Container>
             </div>
-            <Footer />
         </div>
     )
 }
