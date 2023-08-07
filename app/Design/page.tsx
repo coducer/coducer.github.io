@@ -1,6 +1,6 @@
 'use client'
-import Navbar from "../../components/navbar/Navbar";
-import Footer from "../../components/footer/Footer";
+import Footer from "@/components/footer/Footer";
+import Navbar from "@/components/navbar/Navbar";
 import React from "react";
 import { Container } from "react-bootstrap";
 
