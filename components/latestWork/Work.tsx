@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import mock1 from "../../public/assets/lap5.png"
 import mock2 from "../../public/assets/lap2.jpg"

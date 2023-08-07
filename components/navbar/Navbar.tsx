@@ -1,3 +1,4 @@
+'use client'
 import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import company_logo1 from "../../public/assets/MVP Logo (1).png";

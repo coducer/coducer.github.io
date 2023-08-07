@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import { GiStarShuriken } from "react-icons/gi";
 import Cricle from "../circle/Circle";
