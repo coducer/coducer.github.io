@@ -38,13 +38,14 @@ vertical-align: bottom;
 .inner-headings {
 border: 0px solid #ddd;
 line-height: 50px;
-font-size: 32px;
-text-transform: uppercase;
+font-size: 2.7rem;
+font-weight: 800;
 }
+
+
 .inner-headings pre {
 color: var(--mvpYellow);
-font-size: 32px;
-font-weight: 600;
+font-weight: 800;
 animation: scrollAni 16s linear infinite both;
 margin: 0;
 }
@@ -2550,7 +2551,6 @@ margin-right:5px;
   padding-right: 15px;
   padding-left: 15px;
 }
-
 }
 
 
@@ -3078,3 +3078,14 @@ font-size: 1.1rem;
   text-decoration: none;
   color: var(--fontColor);
 }
+
+.text-wrapper span,.builder{
+    font-size: 2.7rem !important;
+    font-weight: 800
+}
+
+
+.day{
+  font-size: 2.7rem;
+  font-weight: 800;
+} 
