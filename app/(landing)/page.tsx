@@ -19,8 +19,8 @@ export default function Home() {
       <Circle />
       <Details />
       <Work />
-      <Testimonial />
-      <Team />
+      {/* <Testimonial /> */}
+      {/* <Team /> */}
       <Clients />
       <Faq />
       <Footer />
