@@ -21,12 +21,12 @@ const Header = () => {
                       Blockchain<br/>
                       Web App<br/>
                       DevOps<br/>
-                      Web Development <br/>
+                      {/* Web Development <br/>
                       Rapid Prototyping<br/>
                       AI/ML Models<br/>
                       Blockchain<br/>
                       Web App<br/>
-                      DevOps<br/>
+                      DevOps<br/> */}
                     </pre>
                   </span>
                   <br />

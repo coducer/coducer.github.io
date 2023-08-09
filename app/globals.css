@@ -799,7 +799,7 @@ justify-content: center;
 /*------------------------- process and cricle css------------------------ */
 
 .white_screen {
-background-color: var(--bgWhite);
+/* background-color: var(--bgWhite); */
 height: 110vh;
 
 }
