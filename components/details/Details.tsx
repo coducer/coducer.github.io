@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import iconss from "../../public/assets/detailsicon.svg";
+// import iconss from "../../public/assets/detailsicon.svg";
 import { BiTimer } from 'react-icons/bi'
 import { AiOutlineTeam } from 'react-icons/ai'
 import { GiProcessor } from 'react-icons/gi'
@@ -14,7 +14,7 @@ const Icon = () => {
     <>
       <div className="details_icon">
         <div className="content">
-          <Image src={iconss} alt="man-icon" className="details_icon_logo" />
+          {/* <Image src={iconss} alt="man-icon" className="details_icon_logo" /> */}
         </div>
       </div>
     </>
