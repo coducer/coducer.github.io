@@ -2,12 +2,12 @@
 import React from "react";
 import Image from "next/image";
 import { Container } from "react-bootstrap";
-import Author from "../../public/assets/cl6.png"
+import Author from "../../public/assets/cad2cddbbee48118f17cf866279ccfd4-businesswoman-avatar-silhouette.png"
 import Mvp from "../../public/assets/123.png"
 
 const Structure = () => {
     return (
-        <div className="section-blog">
+        <div className="section-blog" style={{ minHeight:"100vh"}}>
             <Container>
 
                 <div className="text-center py-5">
@@ -29,14 +29,14 @@ const Structure = () => {
                             <div className="author-info align-items-center pt-3">
                                 <div className="auth-img"><Image src={Author} alt="author-image" width={50} /></div>
                                 <div className="px-2">
-                                    <div className="author-name">Nithish</div>
+                                    <div className="author-name">Indira</div>
                                     <div className="publish-date">January 01,2023</div>
                                 </div>
                             </div>
                         </a>
                     </div>
 
-                    <div className="blog-item col-lg-4">
+                    {/* <div className="blog-item col-lg-4">
                     <a href="blogs/superhero" className="text-decoration-none text-black">
 
                         <div className="blog-img">
@@ -72,10 +72,10 @@ const Structure = () => {
                                 <div className="publish-date">January 01,2023</div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
-                <div className="row mb-5">
+                {/* <div className="row mb-5">
                     <div className="blog-item col-lg-4">
                         <div className="blog-img">
                             <Image src={Mvp} alt="MVP landing" className="blog-img-box" />
@@ -129,7 +129,7 @@ const Structure = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </Container>
         </div>
     )
