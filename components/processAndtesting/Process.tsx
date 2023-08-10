@@ -11,20 +11,8 @@ const Process = () => {
       <div
       >
         <Container>
-          <div className=" process ">
-            <div className="side_star">
-              <div className="ninjastar">
-                <GiStarShuriken />
-              </div>
-              <div className="ninjaline ms-2"> </div>
-            </div>
-            <div className="process_title text-center">Our Processes and Outcomes</div>
-            <div className="side_star">
-              <div className="ninjaline"> </div>
-              <div className="ninjastar ms-2">
-                <GiStarShuriken />
-              </div>
-            </div>
+          <div className="process">
+           <div className="process_title text-center px-auto">Our Processes and Outcomes</div>
           </div>
           <div className="description_process text-center">
             <p>

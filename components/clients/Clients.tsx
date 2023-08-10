@@ -2,9 +2,16 @@ import React from "react";
 import cl2 from "../../public/assets/trew.png";
 import cl4 from "../../public/assets/alar.png";
 import cl5 from "../../public/assets/ihx.png";
-import impactree from "../../public/assets/impactreelogo.png"
+// import impactree from "../../public/assets/impactreelogo.png"
 import { Container } from "react-bootstrap";
 import Image from "next/image";
+import ihx from '../../public/assets/client logos/IHX.svg'
+import impactree from '../../public/assets/client logos/Impactree.png'
+import Al from '../../public/assets/client logos/AlArabia.png'
+import abg from '../../public/assets/client logos/ABG.png'
+import jofin from '../../public/assets/client logos/Jofin.png'
+import trew from '../../public/assets/client logos/TREW.png'
+
 const Clients = () => {
   return (
     <>
@@ -14,37 +21,37 @@ const Clients = () => {
           <div className="slider">
             <div className="slide-track">
               <div className="slide">
-                <Image src={cl2} height="100" width="250" alt="" />
+                <Image src={ihx} alt="" />
               </div>
               <div className="slide">
-                <Image src={impactree} width="100" alt="" />
+                <Image src={impactree} alt="" />
               </div>
               <div className="slide me-3">
-                <Image src={cl4} height="100" width="150" alt="" />
+                <Image src={Al} alt="" />
               </div>
               <div className="slide me-3">
-                <Image src={cl5} height="50" width="150" alt="" />
+                <Image src={trew} alt="" />
               </div>
               <div className="slide">
-                <Image src={cl2} height="100" width="250" alt="" />
+                <Image src={jofin} alt="" />
               </div>
               <div className="slide me-3">
-                <Image src={cl4} height="100" width="150" alt="" />
+                <Image src={abg} alt="" />
               </div>
               <div className="slide me-3">
-                <Image src={cl5} height="50" width="150" alt="" />
+                <Image src={Al} alt="" />
               </div>
               <div className="slide">
-                <Image src={impactree} width="100" alt="" />
+                <Image src={impactree} alt="" />
               </div>
               <div className="slide">
-                <Image src={cl2} height="100" width="250" alt="" />
+                <Image src={trew} alt="" />
               </div>
               <div className="slide me-3">
-                <Image src={cl4} height="100" width="150" alt="" />
+                <Image src={abg} alt="" />
               </div>
               <div className="slide me-3">
-                <Image src={cl5} height="50" width="150" alt="" />
+                <Image src={ihx} alt="" />
               </div>
             </div>
           </div>

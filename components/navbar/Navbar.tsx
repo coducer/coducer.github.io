@@ -27,7 +27,7 @@ const Navbar = () => {
                   {/* <a className="nav-item nav-link text-white px-3" href="/#testimonial">Testimonial</a> */}
                   {/* <a className="nav-item nav-link text-white px-3" href="/#team">Team</a> */}
                   <a className="nav-item nav-link text-white px-3" href="/#faq">FAQ</a>
-                  <a className="nav-item nav-link text-white px-3" href="/blogs">Blogs</a>
+                  <a className="nav-item nav-link text-white ps-3 pe-5" href="/blogs">Blogs</a>
                   <div>
                   <button className="btn-start p-2 px-4 fw-semibold" style={{color:"#28324B",fontSize:"14px"}}>Start Now</button>
                 </div>

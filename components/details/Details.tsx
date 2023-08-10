@@ -37,43 +37,43 @@ const Details = () => {
           </div>
 
           <div className="row ">
-            <div className="col-lg-4 col-12 text-white text-center my-3">
+            <div className="col-lg-4 col-12 text-white text-center my-5">
               <span className="icon-bi"><BiTimer /></span>
               <div className="processes">Time</div>
-              <div>We are with you every step of the way, starting from day -30, assisting you with requirements, proposals, detailed analysis, timeframes, and most of all in defining the core MVP features.</div>
+              <div className="time-cnt">We are with you every step of the way, starting from day -30, assisting you with requirements, proposals, detailed analysis, timeframes and most of all in defining the core MVP features.</div>
             </div>
 
-            <div className="col-lg-4 col-12 text-white text-center my-3">
+            <div className="col-lg-4 col-12 text-white text-center my-5">
               <span className="icon-ai"><AiOutlineTeam /></span>
               <div className="processes">Team</div>
-              <div>Collaborate with experienced tech entrepreneurs, backed by project managers, designers, and test engineers who support your vision.</div>
+              <div className="team-cnt">You get to collaborate with experienced tech entrepreneurs, project managers, designers, and test engineers who would help you shape your idea into a minimum viable and loveable product. </div>
             </div>
 
-            <div className="col-lg-4 col-12 text-white text-center my-3">
+            <div className="col-lg-4 col-12 text-white text-center my-5">
               <span className="icon-gi"><GiProcessor /></span>
               <div className="processes">Process</div>
-              <div>Our process is a proven and customised approach designed specifically for Non-tech SaaS founders. We offer comprehensive tech assistance to ensure your success in navigating the complexities in tech world.
+              <div className="process-cnt">Our extensive process is proven and exclusively crafted for the founders building their MVPs. Our comprehensive tech assistance ensures you to succeed and navigate the tech complexities.
             </div>
             </div>
           </div>
 
           <div className="row ">
-          <div className="col-lg-4 col-12 text-white text-center my-3">
+          <div className="col-lg-4 col-12 text-white text-center my-5">
               <span className="icon-bi"><GiExpand /></span>
               <div className="processes">Scale</div>
-              <div>We help you accelerate your growth rate by scaling up your tech capabilities like handling customer requests, enhancing resources & infrastructure and effectively managing increased workloads.</div>
+              <div className="scale-cnt">We help you accelerate your growth rate by scaling your tech capabilities like handling customer requests, enhancing resources, infrastructure & effectively managing increased workloads.</div>
             </div>
 
-            <div className="col-lg-4 col-12 text-white text-center my-3">
+            <div className="col-lg-4 col-12 text-white text-center my-5">
               <span className="icon-ai"><MdOutlineContactSupport /></span>
               <div className="processes">Support</div>
-              <div>As your tech arm, we support decision-making, interactions with investors/customers, and serve as your knowledge partner for product and tech related resources.</div>
+              <div className="support-cnt">As your extended tech arm, we offer support for tech related decision-making, interactions with the investors or customers and serve as your knowledge partner for tech related resources.</div>
             </div>
 
-            <div className="col-lg-4 col-12 text-white text-center my-3">
+            <div className="col-lg-4 col-12 text-white text-center my-5">
               <span className="icon-gi"><RiOpenSourceLine /></span>
               <div className="processes">Opensource</div>
-              <div>Open Source empowers us to customise tools based on unique requirements, ensuring each product is distinctive, while Proprietary Tools are utilised when necessary.</div>
+              <div className="open-cnt">Open Source helps speed up development, foster collaboration & customise based on requirements, ensuring each product is distinctive, while proprietary tools are utilised when necessary.</div>
             </div>
           </div>
         </Container>

@@ -3,6 +3,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Image from "next/image";
 import Rocket from "../../public/assets/bg_startup.png"
+import { Sora } from 'next/font/google';
 
 const Header = () => {
   return (
@@ -11,9 +12,9 @@ const Header = () => {
         <Container className="h-100">
           <div className=" d-flex align-items-center h-100">
             <div className="row">
-              <div className="hero-head col-md-7 text-white my-auto">
+              <div className="hero-head col-md-6 text-white my-auto">
                   <div className="inner-headings">
-                   <h2 className="builder d-inline-block me-2 mb-0">Build your</h2>
+                   <h2 className="builder d-inline-block me-3 mb-0">Build your</h2>
                   <span className="text-wrapper">
                     <pre>
                       Web Development <br/>
@@ -35,7 +36,7 @@ const Header = () => {
                   <button className="btn-start p-2 px-4 fw-semibold" style={{ color: "#28324B", fontSize: "14px" }}>Start Now</button>
                 </div>
               </div>
-              <div className="rocket-container col-md-5 mx-auto">
+              <div className="rocket-container col-md-6 mx-auto">
                 <Image src={Rocket} alt="rocket" className="hero-rocket" />
               </div>
             </div>
