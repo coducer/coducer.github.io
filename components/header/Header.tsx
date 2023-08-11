@@ -30,7 +30,7 @@ const Header = () => {
                 </div>
                   <h2 className="day">in 100 days</h2>
                 <div className="hero-subhead text-white py-3">
-                  <p>Supercharge your journey as a Non-tech SaaS Founder with 100 Days of MVP, and build your Product in record time. Collaborate closely with our dynamic team of tech-nerds starting from day -30, to prioritise market-driven features and conquer tech decision-making challenges</p>
+                  <p>We help founders in Fintech and SaaS create an MVP in 100 days. As your dedicated tech partner, we guide you from ideation to development, offering essential tech support until you secure a CTO and dev team. Count on us for reliable long-term support.</p>
                 </div>
                 <div>
                   <button className="btn-start p-2 px-4 fw-semibold" style={{ color: "#28324B", fontSize: "14px" }}>Start Now</button>

@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;300;400;500;600;700&family=Spline+Sans:wght@300;400;500;600;700&display=swap');
 
   :root{
 --fontColor: #28324b;
@@ -18,7 +18,7 @@ scroll-behavior: smooth;
 }
 
 body{
-  font-family: 'Spline Sans', sans-serif !important;
+  font-family: 'Sora', sans-serif !important;
 }
 /* ----------------------------------------------------------------typer------------------------------------------------------ */
 
