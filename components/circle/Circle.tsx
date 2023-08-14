@@ -15,29 +15,35 @@ const Circle = () => {
   }, []);
 
   return (
-    <>
+    <Container>
       <div
-        className="white_screen container"
-        id="process" >
-        <Process />
-        <div className="side_place" >
+        className="white_screen d-flex flex-column justify-content-center"
+        id="process"
+      >
+        <div className="pt-5">
+          <Process />
+        </div>
+        <div className="side_place">
           <div className="rings ">
-
             <div className="circ  c1">
               <div className="part">
                 <div className="fortriangle">
                   <div className="dot"></div>
                   <div className="line"></div>
                   <div className="semi-donut-up">
-                    <div className={animation ? "semi_cricle curve1" : ""}></div>
+                    <div
+                      className={animation ? "semi_cricle curve1" : ""}
+                    ></div>
                   </div>
-                  <div className={animation ? "load-up up_triangle1" : ""}></div>
+                  <div
+                    className={animation ? "load-up up_triangle1" : ""}
+                  ></div>
                 </div>
               </div>
 
               <a href="Scoping" className="stepssection">
                 <div className="desktop">Step 1</div>
-                </a>
+              </a>
               <div className="tab"> Step 1 </div>
               <div className="mobile"> -30 - 0 Days </div>
 
@@ -64,7 +70,6 @@ const Circle = () => {
               </div>
             </div>
 
-
             <div className="circ  c2">
               <div className="part">
                 <div className="fortriangle">
@@ -83,7 +88,7 @@ const Circle = () => {
 
               <a href="Design" className="stepssection">
                 <div className="desktop">Step 2</div>
-                </a>
+              </a>
               <div className="tab"> Step 2 </div>
               <div className="mobile"> 1 - 20 Days </div>
 
@@ -94,7 +99,8 @@ const Circle = () => {
                 <div className="description_duration_title">Design</div>
                 <div className="description_small">
                   <p>
-                    Design a user-centric layout architecture, UX & UI, and high-level system layouts.
+                    Design a user-centric layout architecture, UX & UI, and
+                    high-level system layouts.
                   </p>
                 </div>
               </div>
@@ -114,22 +120,27 @@ const Circle = () => {
                   <div className="dot"></div>
                   <div className="line"></div>
                   <div className="semi-donut-up">
-                    <div className={animation ? "semi_cricle curve3" : ""}></div>
+                    <div
+                      className={animation ? "semi_cricle curve3" : ""}
+                    ></div>
                   </div>
-                  <div className={animation ? "load-up up_triangle2" : ""}></div>
+                  <div
+                    className={animation ? "load-up up_triangle2" : ""}
+                  ></div>
                 </div>
               </div>
 
               <a href="Development" className="stepssection">
                 <div className="desktop">Step 3</div>
-                </a>
+              </a>
               <div className="tab"> Step 3 </div>
               <div className="mobile"> 21 - 75 Days </div>
               <div className="sub1">
                 <div className="description_duration_title"> Development</div>
                 <div className="description_small">
                   <p>
-                    Develop a stellar MVP using our streamlined development methodology.
+                    Develop a stellar MVP using our streamlined development
+                    methodology.
                   </p>
                 </div>
                 <div className="days">
@@ -164,7 +175,7 @@ const Circle = () => {
 
               <a href="Launch" className="stepssection">
                 <div className="desktop">Step 4</div>
-                </a>
+              </a>
               <div className="tab"> Step 4 </div>
               <div className="mobile"> 76 - 90 Days </div>
               <div className="sub2">
@@ -174,7 +185,8 @@ const Circle = () => {
                 <div className="description_duration_title">Launch</div>
                 <div className="description_small">
                   <p>
-                    Iterate, launch, and validate the product based on user testing and feedback.
+                    Iterate, launch, and validate the product based on user
+                    testing and feedback.
                   </p>
                 </div>
               </div>
@@ -194,22 +206,28 @@ const Circle = () => {
                   <div className="dot"></div>
                   <div className="line"></div>
                   <div className="semi-donut-up">
-                    <div className={animation ? "semi_cricle curve5" : ""}></div>
+                    <div
+                      className={animation ? "semi_cricle curve5" : ""}
+                    ></div>
                   </div>
-                  <div className={animation ? "load-up up_triangle3" : ""}></div>
+                  <div
+                    className={animation ? "load-up up_triangle3" : ""}
+                  ></div>
                 </div>
               </div>
 
               <a href="Scaling" className="stepssection">
                 <div className="desktop">Step 5</div>
-                </a>
+              </a>
               <div className="tab"> Step 5 </div>
               <div className="mobile"> 90 -100 Days </div>
               <div className="sub1">
                 <div className="description_duration_title"> Scaling</div>
                 <div className="description_small">
                   <p>
-                    Leveraging feedback and success, we scale your product via features or pivoting.                  </p>
+                    Leveraging feedback and success, we scale your product via
+                    features or pivoting.{" "}
+                  </p>
                 </div>
                 <div className="days">
                   90 - 100<span id="small">Days</span>
@@ -227,8 +245,7 @@ const Circle = () => {
           </div>
         </div>
       </div>
-    </>
-
+    </Container>
   );
 };
 
