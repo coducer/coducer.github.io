@@ -1,7 +1,7 @@
 import { Providers } from "@/components/providers";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Sora } from 'next/font/google';
+import { Sora } from "next/font/google";
 
 export const metadata: Metadata = {
   title: "100 Days Of MVP",
@@ -9,11 +9,11 @@ export const metadata: Metadata = {
 };
 
 const sora = Sora({
-  weight: ['400', '700'],
-  style: ['normal'],
-  subsets: ['latin'],
-  display: 'swap',
-})
+  weight: ["400", "700"],
+  style: ["normal"],
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export default function RootLayout({
   children,
@@ -24,15 +24,6 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Providers>{children}</Providers>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WPWZR47RGN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WPWZR47RGN');
-</script>
       </body>
     </html>
   );
