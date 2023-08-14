@@ -74,6 +74,44 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
+            <div className="d-lg-none d-md-block hamburger">
+              <input type="checkbox" id="active" />
+              <label htmlFor="active" className="menu-btn">
+                <span></span>
+              </label>
+              <label htmlFor="active" className="close"></label>
+              <div className="wrapper">
+                <ul>
+                  <li>
+                    <a href="/#process">Our Process</a>
+                  </li>
+                  <li>
+                    <a href="/#whyus">Whyus?</a>
+                  </li>
+                  <li>
+                    <a href="/#work">Our Work</a>
+                  </li>
+                  <li>
+                    <a href="/#faq">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="/blogs"> Blogs</a>
+                  </li>
+                  {/* <li>
+                    <a href="#">
+                      <div>
+                        <button
+                          className="btn-start p-2 px-4 fw-semibold"
+                          style={{ color: "#28324B", fontSize: "14px" }}
+                        >
+                          Start Now
+                        </button>
+                      </div>
+                    </a>
+                  </li> */}
+                </ul>
+              </div>
+            </div>
           </nav>
         </Container>
       </div>
