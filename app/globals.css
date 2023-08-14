@@ -35,6 +35,12 @@ body {
   right: 0;
 }
 
+@media screen and (max-width: 912px) and (min-width: 600px) {
+  .menu-btn {
+    top: 33px !important;
+  }
+}
+
 .menu-btn {
   position: absolute;
   z-index: 2;
