@@ -3035,8 +3035,14 @@ Container {
 }
 
 
+@media screen and (max-width: 912px) {
+  .working {
+    max-height: 300px !important;
 
-.workimg {
+  }
+}
+
+.working {
   width: 100%;
   max-height: 600px;
   padding: 30px;
@@ -3044,11 +3050,11 @@ Container {
   object-fit: contain;
 }
 
-.workimg:hover {
+.working:hover {
   cursor: pointer;
 }
 
-.workimg:hover {
+.working:hover {
   transform: scale(1.1);
   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
