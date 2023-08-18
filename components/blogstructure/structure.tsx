@@ -83,7 +83,7 @@ const Structure = () => {
 
                 <div className="blog-row row mb-5">
                     <div className="blog-item col-lg-4">
-                        <a href="blogs/b4" className="text-decoration-none text-black">
+                        <a href="blogs/vision" className="text-decoration-none text-black">
                             <div className="blog-img">
                                 <Image src={Agile} alt="MVP landing" className="blog-img-box" />
                             </div>
@@ -102,99 +102,6 @@ const Structure = () => {
                         </a>
                     </div>
                 </div>
-                {/* <div className="blog-item col-lg-4">
-                    <a href="blogs/superhero" className="text-decoration-none text-black">
-
-                        <div className="blog-img">
-                            <Image src={Mvp} alt="MVP landing" className="blog-img-box" />
-                        </div>
-                        <div className="blog-details">
-                            <div className="blog-genre pt-3">Story</div>
-                            <div className="blog-title py-3">Super Hero</div>
-                            <div className="blog-oneliner">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
-                        </div>
-                        <div className="author-info align-items-center pt-3">
-                            <div className="auth-img"><Image src={Author} alt="author-image" width={50} /></div>
-                            <div className="px-2">
-                                <div className="author-name">Nithish</div>
-                                <div className="publish-date">January 01,2023</div>
-                            </div>
-                        </div></a>
-                    </div>
-
-                    <div className="blog-item col-lg-4">
-                        <div className="blog-img">
-                            <Image src={Mvp} alt="MVP landing" className="blog-img-box" />
-                        </div>
-                        <div className="blog-details">
-                            <div className="blog-genre pt-3">Story</div>
-                            <div className="blog-title py-3">Why 100 Days Of MVP?</div>
-                            <div className="blog-oneliner">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
-                        </div>
-                        <div className="author-info align-items-center pt-3">
-                            <div className="auth-img"><Image src={Author} alt="author-image" width={50} /></div>
-                            <div className="px-2">
-                                <div className="author-name">Nithish</div>
-                                <div className="publish-date">January 01,2023</div>
-                            </div>
-                        </div>
-                    </div> */}
-
-                {/* <div className="row mb-5">
-                    <div className="blog-item col-lg-4">
-                        <div className="blog-img">
-                            <Image src={Mvp} alt="MVP landing" className="blog-img-box" />
-                        </div>
-                        <div className="blog-details">
-                            <div className="blog-genre pt-3">Story</div>
-                            <div className="blog-title py-3">Why 100 Days Of MVP?</div>
-                            <div className="blog-oneliner">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
-                        </div>
-                        <div className="author-info align-items-center pt-3">
-                            <div className="auth-img"><Image src={Author} alt="author-image" width={50} /></div>
-                            <div className="px-2">
-                                <div className="author-name">Nithish</div>
-                                <div className="publish-date">January 01,2023</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="blog-item col-lg-4">
-                        <div className="blog-img">
-                            <Image src={Mvp} alt="MVP landing" className="blog-img-box" />
-                        </div>
-                        <div className="blog-details">
-                            <div className="blog-genre pt-3">Story</div>
-                            <div className="blog-title py-3">Why 100 Days Of MVP?</div>
-                            <div className="blog-oneliner">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
-                        </div>
-                        <div className="author-info align-items-center pt-3">
-                            <div className="auth-img"><Image src={Author} alt="author-image" width={50} /></div>
-                            <div className="px-2">
-                                <div className="author-name">Nithish</div>
-                                <div className="publish-date">January 01,2023</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="blog-item col-lg-4">
-                        <div className="blog-img">
-                            <Image src={Mvp} alt="MVP landing" className="blog-img-box" />
-                        </div>
-                        <div className="blog-details">
-                            <div className="blog-genre pt-3">Story</div>
-                            <div className="blog-title py-3">Why 100 Days Of MVP?</div>
-                            <div className="blog-oneliner">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
-                        </div>
-                        <div className="author-info align-items-center pt-3">
-                            <div className="auth-img"><Image src={Author} alt="author-image" width={50} /></div>
-                            <div className="px-2">
-                                <div className="author-name">Nithish</div>
-                                <div className="publish-date">January 01,2023</div>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
             </Container>
         </div>
     )
