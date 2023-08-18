@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap');
-
-:root {
-  --fontColor: #28324b;
-  --mvpYellow: #f4dd4b;
-  --bgWhite: #fefefe;
-  --black: #202020;
-  --mouse: #f4dd4b60;
-  --fontFamily: 'Sora' !important;
-
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+  :root{
+--fontColor: #28324b;
+--mvpYellow: #f4dd4b;
+--bgWhite: #fefefe;
+--black: #202020;
+--mouse:  #f4dd4b60;
 }
 
 * {
@@ -17,9 +14,11 @@
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: 'Spline Sans', sans-serif !important;
+body{
+  font-family: 'Sora', sans-serif;
 }
+
+/* ----------------------------------------------------------------typer------------------------------------------------------ */
 
 .wrapper {
   position: fixed;
@@ -213,11 +212,13 @@ body {
 }
 
 .inner-headings pre {
-  color: var(--mvpYellow);
-  font-weight: 800;
-  animation: scrollAni 16s linear infinite both;
-  margin: 0;
-  font-family: 'Spline Sans', sans-serif;
+color: var(--mvpYellow);
+font-weight: 700;
+animation: scrollAni 16s linear infinite both;
+margin: 0;
+  font-family: 'Sora', sans-serif !important;
+
+
 }
 
 @keyframes scrollAni {

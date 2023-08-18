@@ -46,7 +46,7 @@ const Details = () => {
             <div className="col-lg-4 col-12 text-white text-center my-5">
               <span className="icon-ai"><AiOutlineTeam /></span>
               <div className="processes">Team</div>
-              <div className="team-cnt">You get to collaborate with experienced tech entrepreneurs, project managers, designers, and test engineers who would help you shape your idea into a minimum viable and loveable product. </div>
+              <div className="team-cnt">You get to collaborate with experienced tech entrepreneurs, project managers, designers, and test engineers who would help you shape your idea into a minimum viable product. </div>
             </div>
 
             <div className="col-lg-4 col-12 text-white text-center my-5">

@@ -10,13 +10,6 @@ export const metadata: Metadata = {
 
 };
 
-const sora = Sora({
-  weight: ["400", "700"],
-  style: ["normal"],
-  subsets: ["latin"],
-  display: "swap",
-});
-
 export default function RootLayout({
   children,
 }: {
@@ -24,7 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+
+      <head><link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" /> </head>
+      <body style={{ fontFamily: "'Sora', sans-serif" }}>
         <Providers>{children}</Providers>
       </body>
       <Script
