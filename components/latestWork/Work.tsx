@@ -71,7 +71,7 @@ const Work = () => {
                         <div className="d-flex align-items-center pt-5">
                           <div className="industry">
                             <h4 className="fs-3 fw-bolder">Industry</h4>
-                            <p className="">Ad Tech</p>
+                            <p className="">AdTech</p>
                           </div>
                           <div className="region ms-5">
                             <h4 className="fs-3 fw-bolder">Region</h4>
