@@ -17,7 +17,7 @@ const Structure = () => {
 
                 <div className="text-center py-5">
                     <div className="blog-page-header">Our Latest Blog Posts</div>
-                    <div className="blog-page-subheader"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div>
+                    {/* <div className="blog-page-subheader"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div> */}
                 </div>
 
                 <div className="blog-row row pb-5">
