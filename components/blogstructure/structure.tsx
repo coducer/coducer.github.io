@@ -22,7 +22,7 @@ const Structure = () => {
 
                 <div className="blog-row row pb-5">
                     <div className="blog-item col-lg-4">
-                        <a href="https://www.linkedin.com/pulse/how-non-tech-superhero-founder-can-transform-revolutionising%3FtrackingId=%252BOERCuRmQuq4SbQ2PG9u5Q%253D%253D/?trackingId=%2BOERCuRmQuq4SbQ2PG9u5Q%3D%3D" target="_blank" className="text-decoration-none text-black">
+                        <a href="https://www.linkedin.com/pulse/how-non-tech-superhero-founder-can-transform-revolutionizing%3FtrackingId=LhXalP6UVCV7sEfVo%252FCYEg%253D%253D/?trackingId=LhXalP6UVCV7sEfVo%2FCYEg%3D%3D" target="_blank" className="text-decoration-none text-black">
                             <div className="blog-img">
                                 <Image src={Mvp} alt="MVP landing" className="blog-img-box" />
                             </div>
