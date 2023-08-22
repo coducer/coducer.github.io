@@ -24,7 +24,7 @@ const Work = () => {
             </div>
             
               <div className="row wrk-sample">
-                 <Carousel className="carousel-indicators">
+                 <Carousel>
                   <Carousel.Item interval={5000} >
                     <div className="row mt-3" style={{ maxHeight:"50vh"}}>
                       <div className="col-md-5">
