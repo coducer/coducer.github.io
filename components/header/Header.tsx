@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import Image from "next/image";
 import Rocket from "../../public/assets/bg_startup.png";
 import { Sora } from "next/font/google";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -36,15 +37,22 @@ const Header = () => {
                 </div>
                 <h2 className="day">in 100 days</h2>
                 <div className="hero-subhead text-white py-3">
-                  <p>We help founders in Fintech and SaaS create an MVP in 100 days. As your dedicated tech partner, we guide you from ideation to development, offering essential tech support until you secure a CTO and dev team. Count on us for reliable long-term support.</p>
+                  <p>
+                    We help founders in Fintech and SaaS create an MVP in 100
+                    days. As your dedicated tech partner, we guide you from
+                    ideation to development, offering essential tech support
+                    until you secure a CTO and dev team. Count on us for
+                    reliable long-term support.
+                  </p>
                 </div>
                 <div>
-                  <button
-                    className="btn-start p-2 px-4 fw-semibold"
+                  <Link
+                    href={"/contact"}
+                    className="btn-start p-2 px-4 fw-semibold text-decoration-none"
                     style={{ color: "#28324B", fontSize: "14px" }}
                   >
                     Start Now
-                  </button>
+                  </Link>
                 </div>
               </div>
               <div className="rocket-container col-lg-6 ">
