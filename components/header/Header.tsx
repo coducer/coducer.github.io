@@ -2,7 +2,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Image from "next/image";
-import Rocket from "../../public/assets/bg_startup.png";
+import Rocket from "../../public/assets/MVP.png";
 import { Sora } from "next/font/google";
 
 const Header = () => {
