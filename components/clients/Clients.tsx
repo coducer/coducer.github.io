@@ -10,22 +10,17 @@ import Trew from '../../public/assets/B&W logos/TREW.png'
 
 const Clients = () => {
 
-  // var copy = document.querySelector('.slide-track')?.cloneNode(true)
-  // document.querySelector('.slider')?.appendChild(copy);
-
   return (
     <>
       <div className="clients_screen">
         <Container>
           <div className="process_title_clients text-center py-3">We are Working with</div>
-          
-          
           <div className="slider logos">
             <div className="slide-track logos-slide">
               <div className="slide">
                 <Image src={Ihx} alt="" />
               </div>
-              <div className="slide"> 
+              <div className="slide">
                 <Image src={impactree} alt="" />
               </div>
               <div className="slide">
@@ -44,7 +39,7 @@ const Clients = () => {
               <div className="slide">
                 <Image src={Ihx} alt="" />
               </div>
-              <div className="slide"> 
+              <div className="slide">
                 <Image src={impactree} alt="" />
               </div>
               <div className="slide">
@@ -59,7 +54,7 @@ const Clients = () => {
               <div className="slide">
                 <Image src={Abg} alt="" />
               </div>
-                    </div>
+            </div>
           </div>
 
           <script>

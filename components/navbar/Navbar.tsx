@@ -63,7 +63,7 @@ const Navbar = () => {
                   >
                     Blogs
                   </a>
-                  <div>
+                  <div className="d-flex align-items-center">
                     <button
                       className="btn-start p-2 px-4 fw-semibold"
                       style={{ color: "#28324B", fontSize: "14px" }}
@@ -97,18 +97,6 @@ const Navbar = () => {
                   <li>
                     <a href="/blogs"> Blogs</a>
                   </li>
-                  {/* <li>
-                    <a href="#">
-                      <div>
-                        <button
-                          className="btn-start p-2 px-4 fw-semibold"
-                          style={{ color: "#28324B", fontSize: "14px" }}
-                        >
-                          Start Now
-                        </button>
-                      </div>
-                    </a>
-                  </li> */}
                 </ul>
               </div>
             </div>

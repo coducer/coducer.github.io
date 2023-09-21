@@ -10,9 +10,9 @@ const page = () => {
                 <Container>
                     <div className="scope py-3">
                         <p className="scope-content">
-                            <b>An Outlook of what we do in -30 Days to Day 0</b>
+                            <h2 className="pt-4 fs-2 fw-bold">An Outlook of what we do in -30 Days to Day 0</h2>
 
-                            <p>Welcome to 100 Days of MVP, where idea meets innovation!</p>
+                            <p className="fs-5 fw-bold">Welcome to 100 Days of MVP, where idea meets innovation!</p>
 
                             <p>Our extensive research and experience in building multiple minimum viable products has taught us one golden rule. <b> A well-defined scope gurantees an outstanding MVP. </b> We understand that defining the parameters and objectives of a project is a critical foundation for successful launch of the product.</p>
 
