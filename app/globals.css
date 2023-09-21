@@ -2794,6 +2794,14 @@ Container {
 
 /* -------------------work css--------------- */
 
+@media screen and (max-width: 768px) {
+  .screenshot{
+    height: 100% !important;
+    width: 100% !important;
+  }
+}
+
+
 
 
 /* -------------------------------clients---------------------------------- */
@@ -2938,7 +2946,7 @@ Container {
 
 .slide-track {
   display: flex;
-  animation: 15s slide infinite linear;
+  animation: 10s slide infinite linear;
   /* display: inline-block; */
 }
 
