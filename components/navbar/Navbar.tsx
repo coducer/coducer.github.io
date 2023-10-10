@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import company_logo1 from "../../public/assets/MVP Logo (1).png";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -63,13 +64,14 @@ const Navbar = () => {
                   >
                     Blogs
                   </a>
-                  <div className="d-flex align-items-center">
-                    <button
-                      className="btn-start p-2 px-4 fw-semibold"
+                  <div>
+                    <Link
+                      href={"/contact"}
+                      className="btn-start p-2 px-4 fw-semibold text-decoration-none"
                       style={{ color: "#28324B", fontSize: "14px" }}
                     >
                       Start Now
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>
