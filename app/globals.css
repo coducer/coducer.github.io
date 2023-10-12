@@ -792,7 +792,7 @@ Container {
 }
 
 .stepssection {
-  z-index: 999999999999999999999;
+  z-index: 999999 !important;
   text-decoration: none;
   color: var(--fontColor);
 }
