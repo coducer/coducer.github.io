@@ -21,7 +21,7 @@ const Header = () => {
                   <span className="text-wrapper">
                     <pre>
                       Web Development <br />
-                      Rapid Prototyping
+                      MVP
                       <br />
                       AI/ML Models
                       <br />
@@ -38,11 +38,7 @@ const Header = () => {
                 <h2 className="day">in 100 days</h2>
                 <div className="hero-subhead text-white py-3">
                   <p>
-                    We help founders in Fintech and SaaS create an MVP in 100
-                    days. As your dedicated tech partner, we guide you from
-                    ideation to development, offering essential tech support
-                    until you secure a CTO and dev team. Count on us for
-                    reliable long-term support.
+                    We are a dynamic product studio committed to transforming innovative concepts into reality within a 100-day timeframe. Our dedicated team specialises in user-centric design, streamlined development methodologies, and cutting-edge technologies to deliver exceptional solutions tailored to our clients' unique visions and goals.
                   </p>
                 </div>
                 <div>

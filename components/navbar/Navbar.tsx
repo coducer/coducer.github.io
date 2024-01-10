@@ -70,7 +70,7 @@ const Navbar = () => {
                       className="btn-start p-2 px-4 fw-semibold text-decoration-none"
                       style={{ color: "#28324B", fontSize: "14px" }}
                     >
-                      Start Now
+                      Let`s Talk
                     </Link>
                   </div>
                 </div>

@@ -40,34 +40,33 @@ const Details = () => {
             <div className="col-lg-4 col-12 text-white text-center my-5">
               <span className="icon-bi"><BiTimer /></span>
               <div className="processes">Time</div>
-              <div className="time-cnt">We are with you every step of the way, starting from day -30, assisting you with requirements, proposals, detailed analysis, timeframes and most of all in defining the core MVP features.</div>
+              <div className="time-cnt">We accompany you from day -30, guiding you through requirements, proposals, detailed analysis, timeframes, and crucially, defining core MVP features.</div>
             </div>
 
             <div className="col-lg-4 col-12 text-white text-center my-5">
               <span className="icon-ai"><AiOutlineTeam /></span>
               <div className="processes">Team</div>
-              <div className="team-cnt">You get to collaborate with experienced tech entrepreneurs, project managers, designers, and test engineers who would help you shape your idea into a minimum viable product. </div>
+              <div className="team-cnt">Collaborate with experienced tech entrepreneurs, project managers, designers, and engineers to shape your idea into a product.</div>
             </div>
 
             <div className="col-lg-4 col-12 text-white text-center my-5">
               <span className="icon-gi"><GiProcessor /></span>
               <div className="processes">Process</div>
-              <div className="process-cnt">Our extensive process is proven and exclusively crafted for the founders building their MVPs. Our comprehensive tech assistance ensures you to succeed and navigate the tech complexities.
-            </div>
+              <div className="process-cnt">Our proven process offers comprehensive tech assistance, guiding you to success through intricate technical landscapes.</div>
             </div>
           </div>
 
           <div className="row ">
-          <div className="col-lg-4 col-12 text-white text-center my-5">
+            <div className="col-lg-4 col-12 text-white text-center my-5">
               <span className="icon-bi"><GiExpand /></span>
               <div className="processes">Scale</div>
-              <div className="scale-cnt">We help you accelerate your growth rate by scaling your tech capabilities like handling customer requests, enhancing resources, infrastructure & effectively managing increased workloads.</div>
+              <div className="scale-cnt">We accelerate your growth by scaling tech capabilities, enhancing resources, infrastructure, and efficiently managing increased workloads.</div>
             </div>
 
             <div className="col-lg-4 col-12 text-white text-center my-5">
               <span className="icon-ai"><MdOutlineContactSupport /></span>
               <div className="processes">Support</div>
-              <div className="support-cnt">As your extended tech arm, we offer support for tech related decision-making, interactions with the investors or customers and serve as your knowledge partner for tech related resources.</div>
+              <div className="support-cnt">As your tech partner, we support decision-making, engage with investors or customers, and serve as a knowledge resource for tech-related needs.</div>
             </div>
 
             <div className="col-lg-4 col-12 text-white text-center my-5">

@@ -25,14 +25,37 @@ const Work = () => {
 
             <div className="row wrk-sample">
               <Carousel>
-                <Carousel.Item interval={5000} >
+
+                <Carousel.Item interval={5000}>
                   <div className="row mt-3 mb-3">
                     <div className="col-lg-5 col-sm-6">
-                      <div>
-                        <Image src={Jfnlgo} alt="" className="mb-5" />
-                        <h4 className="fs-1 fw-bold">Jofin</h4>
-                        <p>Jofin provides comprehensive personal financial management solutions. Comprising competent financial experts, provides unbiased financial advice right from how to plan, where to invest, which insurance to buy; besides providing additional facilities and features such as e-Tax filing, loans, and digital document locker all within one platform.</p>
+                      <Image src={Jfnlgo} alt="" className="mb-5" />
+                      <div className="row">
+                        <div className="col-lg-6 col-sm-6">
+                          <h4 className="fs-5 fw-bold">Project Requirement</h4>
+                          <p>Build an Insurance module​.</p>
+                        </div>
+                        <div className="col-lg-6 col-sm-6">
+                          <h4 className="fs-5 fw-bold">Team size:</h4>
+                          <span>Project Manager - 1</span><br />
+                          <span>Developer - 4</span><br />
+                          <span>Design - 1</span><br />
+                          <span>QA - 1</span>
+                        </div>
                       </div>
+
+                      <div className="row pt-4">
+                        <div className="col-lg-6 col-sm-6">
+                          <h4 className="fs-5 fw-bold">Outcome :</h4>
+                          <p>Successful launch on-time</p>
+                          <p>Team continu​e to support roadmap</p>
+                        </div>
+                        <div className="col-lg-6 col-sm-6">
+                          <h4 className="fs-5 fw-bold">Duration :</h4>
+                          <p>100 Days</p>
+                        </div>
+                      </div>
+
                       <div className="d-flex align-items-center pt-5">
                         <div className="industry">
                           <h4 className="fs-3 fw-bolder">Industry</h4>
@@ -43,9 +66,9 @@ const Work = () => {
                           <p className="">South Asia - Bengaluru</p>
                         </div>
                       </div>
-                     <div className="mb-3">
-                      <a className="link text-decoration-none" href="https://www.jofin.ai/">Learn More &rarr;</a>
-                    </div>
+                      <div className="mb-3">
+                        <a className="link text-decoration-none" href="https://www.jofin.ai/">Learn More &rarr;</a>
+                      </div>
                     </div>
 
                     <div className="col-lg-7 col-sm-6 d-flex justify-content-center align-items-center">
@@ -59,11 +82,33 @@ const Work = () => {
                 <Carousel.Item interval={5000}>
                   <div className="row mt-3">
                     <div className="col-lg-5 col-sm-6">
-                      <div>
-                        <Image src={Ala} alt="" className="mb-5" />
-                        <h4 className="fs-1 fw-bold">Alarabia</h4>
-                        <p>AlArabia has been the leading outdoor solution provider since 1983, offering clients with expertise across a multitude of platforms and disciplines. It has invested in companies across the entire media funnel to ensure quality from inception to delivery.</p>
+                      <Image src={Ala} alt="" className="mb-5" />
+                      <div className="row">
+                        <div className="col-lg-6 col-sm-6">
+                          <h4 className="fs-5 fw-bold">Project requirement</h4>
+                          <p>Build a responsive web & mobile app</p>
+                        </div>
+                        <div className="col-lg-6 col-sm-6">
+                          <h4 className="fs-5 fw-bold">Team size:</h4>
+                          <span>Project Manager - 1</span><br />
+                          <span>Developer - 4</span><br />
+                          <span>Design - 1</span><br />
+                          <span>QA - 1</span>
+                        </div>
                       </div>
+
+                      <div className="row pt-4">
+                        <div className="col-lg-6 col-sm-6">
+                          <h4 className="fs-5 fw-bold">Outcome</h4>
+                          <p>Successful launch on-time</p>
+                          <p>Team continu​e to support roadmap</p>
+                        </div>
+                        <div className="col-lg-6 col-sm-6">
+                          <h4 className="fs-5 fw-bold">Duration :</h4>
+                          <p>100 Days</p>
+                        </div>
+                      </div>
+
                       <div className="d-flex align-items-center pt-5">
                         <div className="industry">
                           <h4 className="fs-3 fw-bolder">Industry</h4>
@@ -74,9 +119,10 @@ const Work = () => {
                           <p className="">Middle East - Saudi Arabia</p>
                         </div>
                       </div>
-                    <div className="mb-3">
-                    <a className="link text-decoration-none" href="https://al-arabia.com/">Learn More &rarr;</a>
-                    </div>
+
+                      <div className="mb-3">
+                        <a className="link text-decoration-none" href="https://al-arabia.com/">Learn More &rarr;</a>
+                      </div>
                     </div>
 
                     <div className="col-lg-7 col-sm-6 d-flex justify-content-center align-items-center">
@@ -84,18 +130,39 @@ const Work = () => {
                         <Image src={AA} alt="" className="mx-auto screenshot" />
                       </div>
                     </div>
-
                   </div>
                 </Carousel.Item>
 
                 <Carousel.Item interval={5000}>
                   <div className="row mt-3">
                     <div className="col-lg-5 col-sm-6">
-                      <div>
-                        <Image src={Impact} alt="" className="mb-5" />
-                        <h4 className="fs-1 fw-bold">Impactree</h4>
-                        <p>A tech company specializing in social impact and sustainability providing products and solutions thet facilitate enterprise growth and value creation throughout their lifecycle, whether by boosting revenue, reducing costs, or expanding their reach.</p>
+                      <Image src={Impact} alt="" className="mb-5" />
+                      <div className="row">
+                        <div className="col-lg-6 col-sm-6">
+                          <h4 className="fs-5 fw-bold">Project requirement</h4>
+                          <p>Build an responsive web app</p>
+                        </div>
+                        <div className="col-lg-6 col-sm-6">
+                          <h4 className="fs-5 fw-bold">Team size:</h4>
+                          <span>Project Manager - 1</span><br />
+                          <span>Developer - 4</span><br />
+                          <span>Design - 1</span><br />
+                          <span>QA - 1</span>
+                        </div>
                       </div>
+
+                      <div className="row pt-4">
+                        <div className="col-lg-6 col-sm-6">
+                          <h4 className="fs-5 fw-bold">Outcome</h4>
+                          <p>Successful launch on-time</p>
+                          <p>Team continu​e to support roadmap</p>
+                        </div>
+                        <div className="col-lg-6 col-sm-6">
+                          <h4 className="fs-5 fw-bold">Duration :</h4>
+                          <p>100 Days</p>
+                        </div>
+                      </div>
+
                       <div className="d-flex align-items-center pt-5">
                         <div className="industry">
                           <h4 className="fs-3 fw-bolder">Industry</h4>
@@ -106,9 +173,10 @@ const Work = () => {
                           <p className="">South Asia - Chennai</p>
                         </div>
                       </div>
-                     <div className="mb-3">
-                      <a className="link text-decoration-none" href="https://www.impactree.ai/">Learn More &rarr;</a>
-                    </div>
+
+                      <div className="mb-3">
+                        <a className="link text-decoration-none" href="https://www.impactree.ai/">Learn More &rarr;</a>
+                      </div>
                     </div>
 
                     <div className="col-lg-7 col-sm-6 d-flex justify-content-center align-items-center">
@@ -121,8 +189,8 @@ const Work = () => {
               </Carousel>
             </div>
           </div>
-        </Container>
-      </div>
+        </Container >
+      </div >
     </>
   );
 };

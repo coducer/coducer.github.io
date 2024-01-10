@@ -16,8 +16,8 @@ export default function Home() {
     <>
       <Navbar />
       <Header />
-      <Circle />
       <Details />
+      <Circle />
       <Work />
       {/* <Testimonial /> */}
       {/* <Team /> */}
